@@ -1,0 +1,1126 @@
+2013/12/24 20:07:46 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'rifwi' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `kreta` (`tipe`, `nama`) VALUES (:yp0, :yp1).
+in C:\xampp\htdocs\Rifqi\protected\controllers\TiketController.php (13)
+in C:\xampp\htdocs\Rifqi\index.php (13)
+2013/12/24 20:07:46 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'rifwi' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `kreta` (`tipe`, `nama`) VALUES (:yp0, :yp1)' in C:\xampp\htdocs\MyBlog\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(1023): CDbCommand->execute()
+#1 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\Rifqi\protected\controllers\TiketController.php(13): CActiveRecord->save()
+#3 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): TiketController->actionCreate()
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('Tiket/create')
+#9 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Rifqi\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Rifqi/index.php?r=Tiket/create
+HTTP_REFERER=http://localhost/Rifqi/index.php?r=tiket/create
+---
+2013/12/24 20:08:56 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'rifwi' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `kreta` (`tipe`, `nama`) VALUES (:yp0, :yp1).
+in C:\xampp\htdocs\Rifqi\protected\controllers\TiketController.php (13)
+in C:\xampp\htdocs\Rifqi\index.php (13)
+2013/12/24 20:08:56 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'rifwi' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `kreta` (`tipe`, `nama`) VALUES (:yp0, :yp1)' in C:\xampp\htdocs\MyBlog\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(1023): CDbCommand->execute()
+#1 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\Rifqi\protected\controllers\TiketController.php(13): CActiveRecord->save()
+#3 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): TiketController->actionCreate()
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('Tiket/create')
+#9 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Rifqi\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Rifqi/index.php?r=Tiket/create
+HTTP_REFERER=http://localhost/Rifqi/index.php?r=tiket/create
+---
+2013/12/28 09:16:12 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tiket.images' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `images`.
+in C:\xampp\htdocs\RifqiHM\protected\controllers\ImageController.php (42)
+in C:\xampp\htdocs\RifqiHM\index.php (13)
+2013/12/28 09:16:12 [error] [exception.CDbException] exception 'CDbException' with message 'The table "images" for active record class "image" cannot be found in the database.' in C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(image))
+#1 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(402): CActiveRecord::model('image')
+#2 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(77): CActiveRecord->getMetaData()
+#3 C:\xampp\htdocs\RifqiHM\protected\controllers\ImageController.php(42): CActiveRecord->__construct()
+#4 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): ImageController->actionIndex()
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('')
+#9 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('image')
+#10 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/RifqiHM/index.php?r=image
+---
+2013/12/28 14:06:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "buku/create".' in C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('buku/create')
+#1 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/RifqiHM/index.php?r=buku/create
+---
+2013/12/28 14:11:09 [error] [php] include(Buku.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\MyBlog\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\xampp\htdocs\RifqiHM\protected\controllers\BarangController.php(9): spl_autoload_call()
+#1 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): BarangController->actionCreate()
+#2 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): BarangController->runAction()
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): BarangController->runActionWithFilters()
+#5 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): BarangController->run()
+#6 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\RifqiHM\index.php(13): CWebApplication->run()
+REQUEST_URI=/RifqiHM/index.php?r=barang/create
+in C:\xampp\htdocs\RifqiHM\protected\controllers\BarangController.php (9)
+in C:\xampp\htdocs\RifqiHM\index.php (13)
+2013/12/28 14:55:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('mahasiswa')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/RifqiHM/index.php?r=mahasiswa
+---
+2013/12/28 14:57:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('mahasiswa')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/RifqiHM/index.php?r=mahasiswa
+---
+2013/12/28 14:57:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('mahasiswa')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/RifqiHM/index.php?r=mahasiswa
+---
+2013/12/28 14:58:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('index')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('index')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('mahasiswa/index')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/RifqiHM/index.php?r=mahasiswa/index
+---
+2013/12/28 15:00:55 [error] [php] include(buku.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\MyBlog\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php(23): spl_autoload_call()
+#1 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionIndex()
+#2 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): MahasiswaController->runAction()
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): MahasiswaController->runActionWithFilters()
+#5 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): MahasiswaController->run()
+#6 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\RifqiHM\index.php(13): CWebApplication->run()
+REQUEST_URI=/RifqiHM/index.php?r=mahasiswa/index
+in C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php (23)
+in C:\xampp\htdocs\RifqiHM\index.php (13)
+2013/12/28 15:02:31 [error] [exception.CException] exception 'CException' with message 'Property "Mahasiswa.tipe" is not defined.' in C:\xampp\htdocs\MyBlog\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(159): CComponent->__set('tipe', '1100631036')
+#1 C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php(11): CActiveRecord->__set('tipe', '1100631036')
+#2 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionCreate()
+#3 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('create')
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('Mahasiswa/creat...')
+#8 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/RifqiHM/index.php?r=Mahasiswa/create
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=mahasiswa/create
+---
+2013/12/28 15:05:32 [error] [exception.CException] exception 'CException' with message 'Property "Mahasiswa.tipe" is not defined.' in C:\xampp\htdocs\MyBlog\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(159): CComponent->__set('tipe', 'da')
+#1 C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php(11): CActiveRecord->__set('tipe', 'da')
+#2 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionCreate()
+#3 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('create')
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('Mahasiswa/creat...')
+#8 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/RifqiHM/index.php?r=Mahasiswa/create
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=mahasiswa/create
+---
+2013/12/28 15:08:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "update".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('update')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('update')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('mahasiswa/updat...')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/RifqiHM/index.php?r=mahasiswa/update&nim=1100631036
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=mahasiswa/index
+---
+2013/12/28 15:08:16 [error] [exception.CException] exception 'CException' with message 'Property "Mahasiswa.tipe" is not defined.' in C:\xampp\htdocs\MyBlog\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(159): CComponent->__set('tipe', '')
+#1 C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php(11): CActiveRecord->__set('tipe', '')
+#2 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionCreate()
+#3 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('create')
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('Mahasiswa/creat...')
+#8 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/RifqiHM/index.php?r=Mahasiswa/create
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=mahasiswa/create
+---
+2013/12/28 15:12:34 [error] [exception.CException] exception 'CException' with message 'Property "Mahasiswa.tipe" is not defined.' in C:\xampp\htdocs\MyBlog\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(159): CComponent->__set('tipe', '')
+#1 C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php(11): CActiveRecord->__set('tipe', '')
+#2 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionCreate()
+#3 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('create')
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('Mahasiswa/creat...')
+#8 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/RifqiHM/index.php?r=Mahasiswa/create
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=mahasiswa/create
+---
+2013/12/28 15:12:54 [error] [exception.CException] exception 'CException' with message 'Property "Mahasiswa.tipe" is not defined.' in C:\xampp\htdocs\MyBlog\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(159): CComponent->__set('tipe', '')
+#1 C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php(11): CActiveRecord->__set('tipe', '')
+#2 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionCreate()
+#3 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('create')
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('Mahasiswa/creat...')
+#8 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/RifqiHM/index.php?r=Mahasiswa/create
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=Mahasiswa/create
+---
+2013/12/28 15:15:13 [error] [exception.CException] exception 'CException' with message 'Property "Mahasiswa.tipe" is not defined.' in C:\xampp\htdocs\MyBlog\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(159): CComponent->__set('tipe', NULL)
+#1 C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php(11): CActiveRecord->__set('tipe', NULL)
+#2 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionCreate()
+#3 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('create')
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('Mahasiswa/creat...')
+#8 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/RifqiHM/index.php?r=Mahasiswa/create
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=Mahasiswa/create
+---
+2013/12/28 15:17:18 [error] [exception.CException] exception 'CException' with message 'Property "Mahasiswa.tipe" is not defined.' in C:\xampp\htdocs\MyBlog\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(159): CComponent->__set('tipe', '')
+#1 C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php(11): CActiveRecord->__set('tipe', '')
+#2 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionCreate()
+#3 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('create')
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('Mahasiswa/creat...')
+#8 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/RifqiHM/index.php?r=Mahasiswa/create
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=Mahasiswa/create
+---
+2013/12/28 15:17:47 [error] [exception.CException] exception 'CException' with message 'Property "Mahasiswa.tipe" is not defined.' in C:\xampp\htdocs\MyBlog\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(159): CComponent->__set('tipe', '')
+#1 C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php(11): CActiveRecord->__set('tipe', '')
+#2 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionCreate()
+#3 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('create')
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('Mahasiswa/creat...')
+#8 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/RifqiHM/index.php?r=Mahasiswa/create
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=Mahasiswa/create
+---
+2013/12/28 15:18:02 [error] [exception.CException] exception 'CException' with message 'Property "Mahasiswa.tipe" is not defined.' in C:\xampp\htdocs\MyBlog\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(159): CComponent->__set('tipe', '12')
+#1 C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php(11): CActiveRecord->__set('tipe', '12')
+#2 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionCreate()
+#3 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('create')
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('Mahasiswa/creat...')
+#8 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/RifqiHM/index.php?r=Mahasiswa/create
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=Mahasiswa/create
+---
+2013/12/28 15:19:34 [error] [exception.CException] exception 'CException' with message 'Property "Mahasiswa.tipe" is not defined.' in C:\xampp\htdocs\MyBlog\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(159): CComponent->__set('tipe', '')
+#1 C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php(11): CActiveRecord->__set('tipe', '')
+#2 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionCreate()
+#3 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('create')
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('Mahasiswa/creat...')
+#8 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/RifqiHM/index.php?r=Mahasiswa/create
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=Mahasiswa/create
+---
+2013/12/28 15:20:18 [error] [exception.CException] exception 'CException' with message 'Property "Mahasiswa.tipe" is not defined.' in C:\xampp\htdocs\MyBlog\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(159): CComponent->__set('tipe', '')
+#1 C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php(11): CActiveRecord->__set('tipe', '')
+#2 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionCreate()
+#3 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('create')
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('Mahasiswa/creat...')
+#8 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/RifqiHM/index.php?r=Mahasiswa/create
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=Mahasiswa/create
+---
+2013/12/28 15:20:23 [error] [exception.CException] exception 'CException' with message 'Property "Mahasiswa.tipe" is not defined.' in C:\xampp\htdocs\MyBlog\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(159): CComponent->__set('tipe', '')
+#1 C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php(11): CActiveRecord->__set('tipe', '')
+#2 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionCreate()
+#3 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('create')
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('Mahasiswa/creat...')
+#8 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/RifqiHM/index.php?r=Mahasiswa/create
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=Mahasiswa/create
+---
+2013/12/28 15:28:29 [error] [exception.CException] exception 'CException' with message 'Property "Mahasiswa.tipe" is not defined.' in C:\xampp\htdocs\MyBlog\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(159): CComponent->__set('tipe', '')
+#1 C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php(11): CActiveRecord->__set('tipe', '')
+#2 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionCreate()
+#3 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('create')
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('Mahasiswa/creat...')
+#8 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/RifqiHM/index.php?r=Mahasiswa/create
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=Mahasiswa/create
+---
+2013/12/28 15:36:20 [error] [exception.CException] exception 'CException' with message 'Property "Mahasiswa.tipe" is not defined.' in C:\xampp\htdocs\MyBlog\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(159): CComponent->__set('tipe', 's')
+#1 C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php(11): CActiveRecord->__set('tipe', 's')
+#2 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionCreate()
+#3 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('create')
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('Mahasiswa/creat...')
+#8 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/RifqiHM/index.php?r=Mahasiswa/create
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=Mahasiswa/create
+---
+2013/12/28 15:42:03 [error] [exception.CException] exception 'CException' with message 'Property "Mahasiswa.tipe" is not defined.' in C:\xampp\htdocs\MyBlog\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(159): CComponent->__set('tipe', '12')
+#1 C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php(11): CActiveRecord->__set('tipe', '12')
+#2 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionCreate()
+#3 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('create')
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('Mahasiswa/creat...')
+#8 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/RifqiHM/index.php?r=Mahasiswa/create
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=mahasiswa/create
+---
+2013/12/28 15:46:36 [error] [exception.CException] exception 'CException' with message 'Property "Mahasiswa.tipe" is not defined.' in C:\xampp\htdocs\MyBlog\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(159): CComponent->__set('tipe', 'swx')
+#1 C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php(11): CActiveRecord->__set('tipe', 'swx')
+#2 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionCreate()
+#3 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('create')
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('Mahasiswa/creat...')
+#8 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/RifqiHM/index.php?r=Mahasiswa/create
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=mahasiswa/create
+---
+2013/12/28 15:50:44 [error] [exception.CException] exception 'CException' with message 'Property "Mahasiswa.tipe" is not defined.' in C:\xampp\htdocs\MyBlog\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(159): CComponent->__set('tipe', 'ds')
+#1 C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php(11): CActiveRecord->__set('tipe', 'ds')
+#2 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionCreate()
+#3 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('create')
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('Mahasiswa/creat...')
+#8 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/RifqiHM/index.php?r=Mahasiswa/create
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=mahasiswa/create
+---
+2013/12/28 15:58:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "update".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('update')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('update')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('mahasiswa/updat...')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/RifqiHM/index.php?r=mahasiswa/update&nim=1100631036
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=mahasiswa/index
+---
+2013/12/28 15:59:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "update".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('update')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('update')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('mahasiswa/updat...')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/RifqiHM/index.php?r=mahasiswa/update&nim=1100631036
+---
+2013/12/28 15:59:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "update".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('update')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('update')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('mahasiswa/updat...')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/RifqiHM/index.php?r=mahasiswa/update&nim=1100631036
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=mahasiswa
+---
+2013/12/29 06:57:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "models".' in C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('models')
+#1 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/RifqiHM/index.php?r=models
+---
+2013/12/29 07:01:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "models".' in C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('models')
+#1 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/RifqiHM/index.php?r=models
+---
+2013/12/29 07:25:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "cari".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('cari')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('cari')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('mahasiswa/cari')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/RifqiHM/index.php?r=mahasiswa/cari
+---
+2013/12/29 07:29:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "cari".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('cari')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('cari')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('mahasiswa/cari')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/RifqiHM/index.php?r=mahasiswa/cari
+---
+2013/12/29 13:31:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "learn/search".' in C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('learn/search')
+#1 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/RifqiHM/index.php?r=learn/search
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=mahasiswa
+---
+2013/12/29 13:36:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "search".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('search')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('search')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('mahasiswa/searc...')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/RifqiHM/index.php?r=mahasiswa/search
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=mahasiswa
+---
+2013/12/29 13:36:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "search".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('search')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('search')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('mahasiswa/searc...')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/RifqiHM/index.php?r=mahasiswa/search
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=mahasiswa
+---
+2013/12/29 13:37:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "search".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('search')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('search')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('mahasiswa/searc...')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/RifqiHM/index.php?r=mahasiswa/search
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=mahasiswa
+---
+2013/12/29 13:38:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "search".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('search')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('search')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('mahasiswa/searc...')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/RifqiHM/index.php?r=mahasiswa/search
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=mahasiswa/
+---
+2013/12/29 13:41:18 [error] [php] include(Buku.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\MyBlog\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php(34): spl_autoload_call()
+#1 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionSearch()
+#2 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): MahasiswaController->runAction()
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): MahasiswaController->runActionWithFilters()
+#5 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): MahasiswaController->run()
+#6 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\RifqiHM\index.php(13): CWebApplication->run()
+REQUEST_URI=/RifqiHM/index.php?r=mahasiswa/search
+in C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php (34)
+in C:\xampp\htdocs\RifqiHM\index.php (13)
+2013/12/29 13:41:39 [error] [php] include(Buku.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\MyBlog\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php(34): spl_autoload_call()
+#1 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionSearch()
+#2 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): MahasiswaController->runAction()
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): MahasiswaController->runActionWithFilters()
+#5 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): MahasiswaController->run()
+#6 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\RifqiHM\index.php(13): CWebApplication->run()
+REQUEST_URI=/RifqiHM/index.php?r=mahasiswa/search
+in C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php (34)
+in C:\xampp\htdocs\RifqiHM\index.php (13)
+2013/12/29 13:43:07 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'judul' in 'where clause'. The SQL statement executed was: SELECT * FROM `mahasiswa` `t` WHERE judul LIKE 'Rifqi Hanif Maulana%' ORDER BY nim DESC.
+in C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php (34)
+in C:\xampp\htdocs\RifqiHM\index.php (13)
+2013/12/29 13:43:07 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'judul' in 'where clause'. The SQL statement executed was: SELECT * FROM `mahasiswa` `t` WHERE judul LIKE 'Rifqi Hanif Maulana%' ORDER BY nim DESC' in C:\xampp\htdocs\MyBlog\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php(34): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionSearch()
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('search')
+#9 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('mahasiswa/searc...')
+#10 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/RifqiHM/index.php?r=mahasiswa/search
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=mahasiswa/
+---
+2013/12/29 13:44:26 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `mahasiswa` `t` WHERE nama LIKE '%' ORDER BY nim DESC' at line 1. The SQL statement executed was: SELECT  FROM `mahasiswa` `t` WHERE nama LIKE '%' ORDER BY nim DESC.
+in C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php (34)
+in C:\xampp\htdocs\RifqiHM\index.php (13)
+2013/12/29 13:44:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `mahasiswa` `t` WHERE nama LIKE '%' ORDER BY nim DESC' at line 1. The SQL statement executed was: SELECT  FROM `mahasiswa` `t` WHERE nama LIKE '%' ORDER BY nim DESC' in C:\xampp\htdocs\MyBlog\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php(34): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionSearch()
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('search')
+#9 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('mahasiswa/searc...')
+#10 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/RifqiHM/index.php?r=mahasiswa/search
+---
+2013/12/29 13:56:18 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1100631031' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `mahasiswa` (`nim`, `nama`, `jurusan`) VALUES (:yp0, :yp1, :yp2).
+in C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php (15)
+in C:\xampp\htdocs\RifqiHM\index.php (13)
+2013/12/29 13:56:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1100631031' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `mahasiswa` (`nim`, `nama`, `jurusan`) VALUES (:yp0, :yp1, :yp2)' in C:\xampp\htdocs\MyBlog\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(1023): CDbCommand->execute()
+#1 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php(15): CActiveRecord->save()
+#3 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionCreate()
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('Mahasiswa/creat...')
+#9 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/RifqiHM/index.php?r=Mahasiswa/create
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=mahasiswa/create
+---
+2014/01/01 18:49:11 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1100631021' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `mahasiswa` (`nim`, `nama`, `jurusan`) VALUES (:yp0, :yp1, :yp2).
+in C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php (15)
+in C:\xampp\htdocs\RifqiHM\index.php (13)
+2014/01/01 18:49:11 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1100631021' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `mahasiswa` (`nim`, `nama`, `jurusan`) VALUES (:yp0, :yp1, :yp2)' in C:\xampp\htdocs\MyBlog\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(1023): CDbCommand->execute()
+#1 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php(15): CActiveRecord->save()
+#3 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionCreate()
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('Mahasiswa/creat...')
+#9 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/RifqiHM/index.php?r=Mahasiswa/create
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=Mahasiswa/create
+---
+2014/01/01 18:49:19 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1100631021' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `mahasiswa` (`nim`, `nama`, `jurusan`) VALUES (:yp0, :yp1, :yp2).
+in C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php (15)
+in C:\xampp\htdocs\RifqiHM\index.php (13)
+2014/01/01 18:49:19 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1100631021' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `mahasiswa` (`nim`, `nama`, `jurusan`) VALUES (:yp0, :yp1, :yp2)' in C:\xampp\htdocs\MyBlog\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(1023): CDbCommand->execute()
+#1 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php(15): CActiveRecord->save()
+#3 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionCreate()
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('Mahasiswa/creat...')
+#9 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/RifqiHM/index.php?r=Mahasiswa/create
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=mahasiswa/create
+---
+2014/01/03 20:23:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index.php')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/RifqiHM/index.php?r=site/index.php
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=site/index
+---
+2014/01/03 20:24:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "create".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('create')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('create')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('site/create')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/RifqiHM/index.php?r=site/create
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=site/index
+---
+2014/01/03 20:24:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "create".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('create')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('create')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('site/create')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/RifqiHM/index.php?r=site/create
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=site/index
+---
+2014/01/03 21:18:09 [error] [exception.CException] exception 'CException' with message 'Property "Mahasiswa.id" is not defined.' in C:\xampp\htdocs\MyBlog\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(143): CComponent->__get('id')
+#1 C:\xampp\htdocs\RifqiHM\protected\views\mahasiswa\index.php(42): CActiveRecord->__get('id')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\MyBlog\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php(44): CController->render('index', Array)
+#7 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionIndex()
+#8 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('index')
+#12 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('mahasiswa/index')
+#13 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/RifqiHM/index.php?r=mahasiswa/index
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=mahasiswa/index
+---
+2014/01/07 10:26:33 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.0" is not defined.' in C:\xampp\htdocs\MyBlog\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\schema\CDbCriteria.php(160): CComponent->__set('0', 'nim LIKE '%'')
+#1 C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php(32): CDbCriteria->__construct(Array)
+#2 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionSearch()
+#3 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('search')
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('mahasiswa/searc...')
+#8 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/RifqiHM/index.php?r=mahasiswa/search
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=mahasiswa
+---
+2014/01/07 10:28:17 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.0" is not defined.' in C:\xampp\htdocs\MyBlog\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\schema\CDbCriteria.php(160): CComponent->__set('0', 'nim LIKE '%'')
+#1 C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php(34): CDbCriteria->__construct(Array)
+#2 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionSearch()
+#3 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('search')
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('mahasiswa/searc...')
+#8 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/RifqiHM/index.php?r=mahasiswa/search
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=mahasiswa
+---
+2014/01/07 10:29:50 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.0" is not defined.' in C:\xampp\htdocs\MyBlog\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\schema\CDbCriteria.php(160): CComponent->__set('0', 'nim LIKE '%'')
+#1 C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php(34): CDbCriteria->__construct(Array)
+#2 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionSearch()
+#3 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('search')
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('mahasiswa/searc...')
+#8 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/RifqiHM/index.php?r=mahasiswa/search
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=mahasiswa
+---
+2014/01/07 10:48:38 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "index".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#1 C:\xampp\htdocs\RifqiHM\protected\controllers\SiteController.php(32): CController->render('index')
+#2 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('index')
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#8 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/RifqiHM/index.php?r=site/index
+---
+2014/01/07 10:58:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "rifqi/index".' in C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('rifqi/index')
+#1 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/RifqiHM/index.php?r=rifqi/index
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=site/index
+---
+2014/01/07 11:01:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "rifqi/index".' in C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('rifqi/index')
+#1 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/RifqiHM/index.php?r=rifqi/index
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=site/index
+---
+2014/01/07 11:03:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "rifqi/index".' in C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('rifqi/index')
+#1 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/RifqiHM/index.php?r=rifqi/index
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=site/index
+---
+2014/01/07 11:03:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "rifqi/index".' in C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('rifqi/index')
+#1 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/RifqiHM/index.php?r=rifqi/index
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=rifqi/index
+---
+2014/01/07 11:03:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "rifqi/page".' in C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('rifqi/page')
+#1 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/RifqiHM/index.php?r=rifqi/page&view=about
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=rifqi/index
+---
+2014/01/07 11:03:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "rifqi/contact".' in C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('rifqi/contact')
+#1 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/RifqiHM/index.php?r=rifqi/contact
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=rifqi/page&view=about
+---
+2014/01/07 11:04:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "rifqi/index".' in C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('rifqi/index')
+#1 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/RifqiHM/index.php?r=rifqi/index
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=rifqi/contact
+---
+2014/01/07 11:05:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "rifqi/index".' in C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('rifqi/index')
+#1 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/RifqiHM/index.php?r=rifqi/index
+---
+2014/01/07 17:14:49 [error] [php] date() expects parameter 2 to be long, string given (C:\xampp\htdocs\RifqiHM\themes\cheese\views\layouts\kikik.php:52)
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CBaseController.php(95): RifqiController->renderInternal()
+#1 C:\xampp\htdocs\MyBlog\framework\web\CController.php(784): RifqiController->renderFile()
+#2 C:\xampp\htdocs\RifqiHM\protected\controllers\RifqiController.php(32): RifqiController->render()
+#3 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): RifqiController->actionIndex()
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): RifqiController->runAction()
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): RifqiController->runActionWithFilters()
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): RifqiController->run()
+#8 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\RifqiHM\index.php(13): CWebApplication->run()
+REQUEST_URI=/RifqiHM/index.php?r=rifqi/index
+in C:\xampp\htdocs\RifqiHM\themes\cheese\views\layouts\kikik.php (52)
+in C:\xampp\htdocs\RifqiHM\protected\controllers\RifqiController.php (32)
+in C:\xampp\htdocs\RifqiHM\index.php (13)
+2014/01/07 17:23:08 [error] [php] Object of class DateTime could not be converted to string (C:\xampp\htdocs\RifqiHM\themes\cheese\views\layouts\kikik.php:54)
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(784): RifqiController->renderFile()
+#1 C:\xampp\htdocs\RifqiHM\protected\controllers\RifqiController.php(32): RifqiController->render()
+#2 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): RifqiController->actionIndex()
+#3 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): RifqiController->runAction()
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): RifqiController->runActionWithFilters()
+#6 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): RifqiController->run()
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\RifqiHM\index.php(13): CWebApplication->run()
+REQUEST_URI=/RifqiHM/index.php?r=rifqi/index
+in C:\xampp\htdocs\RifqiHM\themes\cheese\views\layouts\kikik.php (54)
+in C:\xampp\htdocs\RifqiHM\protected\controllers\RifqiController.php (32)
+in C:\xampp\htdocs\RifqiHM\index.php (13)
+2014/01/07 18:25:35 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.0" is not defined.' in C:\xampp\htdocs\MyBlog\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\schema\CDbCriteria.php(160): CComponent->__set('0', 'jurusan LIKE 'r...')
+#1 C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php(32): CDbCriteria->__construct(Array)
+#2 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionSearch()
+#3 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('search')
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('mahasiswa/searc...')
+#8 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/RifqiHM/index.php?r=mahasiswa/search
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=mahasiswa
+---
+2014/01/07 18:37:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "cari".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('cari')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('cari')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('mahasiswa/cari')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/RifqiHM/index.php?r=mahasiswa/cari
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=mahasiswa
+---
+2014/01/07 18:37:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "cari".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('cari')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('cari')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('mahasiswa/cari')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/RifqiHM/index.php?r=mahasiswa/cari
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=mahasiswa
+---
+2014/01/07 18:43:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "cari".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('cari')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('cari')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('mahasiswa/cari')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/RifqiHM/index.php?r=mahasiswa/cari
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=mahasiswa
+---
+2014/01/07 18:46:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "cari".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('cari')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('cari')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('mahasiswa/cari')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/RifqiHM/index.php?r=mahasiswa/cari
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=mahasiswa
+---
+2014/01/14 19:26:16 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `mahasiswa` `t` WHERE nim = '$%key%' OR nama LIKE '$%key% OR jurusan '$%key' at line 1. The SQL statement executed was: SELECT * FROM maha FROM `mahasiswa` `t` WHERE nim = '$%key%' OR nama LIKE '$%key% OR jurusan '$%key%' ORDER BY nim DESC.
+in C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php (34)
+in C:\xampp\htdocs\RifqiHM\index.php (13)
+2014/01/14 19:26:16 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `mahasiswa` `t` WHERE nim = '$%key%' OR nama LIKE '$%key% OR jurusan '$%key' at line 1. The SQL statement executed was: SELECT * FROM maha FROM `mahasiswa` `t` WHERE nim = '$%key%' OR nama LIKE '$%key% OR jurusan '$%key%' ORDER BY nim DESC' in C:\xampp\htdocs\MyBlog\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php(34): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionSearch()
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('search')
+#9 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('mahasiswa/searc...')
+#10 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/RifqiHM/index.php?r=mahasiswa/search
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=mahasiswa
+---
+2014/01/14 19:26:48 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '$%key%' ORDER BY nim DESC' at line 1. The SQL statement executed was: SELECT * FROM `mahasiswa` `t` WHERE nim = '$%key%' OR nama LIKE '$%key% OR jurusan '$%key%' ORDER BY nim DESC.
+in C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php (34)
+in C:\xampp\htdocs\RifqiHM\index.php (13)
+2014/01/14 19:26:48 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '$%key%' ORDER BY nim DESC' at line 1. The SQL statement executed was: SELECT * FROM `mahasiswa` `t` WHERE nim = '$%key%' OR nama LIKE '$%key% OR jurusan '$%key%' ORDER BY nim DESC' in C:\xampp\htdocs\MyBlog\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php(34): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionSearch()
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('search')
+#9 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('mahasiswa/searc...')
+#10 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/RifqiHM/index.php?r=mahasiswa/search
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=mahasiswa
+---
+2014/01/14 19:27:09 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '$%key%' ORDER BY nim DESC' at line 1. The SQL statement executed was: SELECT * FROM `mahasiswa` `t` WHERE nim = '$%key%' OR nama LIKE '$%key% OR jurusan '$%key%' ORDER BY nim DESC.
+in C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php (34)
+in C:\xampp\htdocs\RifqiHM\index.php (13)
+2014/01/14 19:27:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '$%key%' ORDER BY nim DESC' at line 1. The SQL statement executed was: SELECT * FROM `mahasiswa` `t` WHERE nim = '$%key%' OR nama LIKE '$%key% OR jurusan '$%key%' ORDER BY nim DESC' in C:\xampp\htdocs\MyBlog\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php(34): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionSearch()
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('search')
+#9 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('mahasiswa/searc...')
+#10 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/RifqiHM/index.php?r=mahasiswa/search
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=mahasiswa
+---
+2014/01/14 19:27:41 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''$%key%' ORDER BY nim DESC' at line 1. The SQL statement executed was: SELECT * FROM `mahasiswa` `t` WHERE nim = '$%key%' OR nama LIKE '$%key%' OR jurusan '$%key%' ORDER BY nim DESC.
+in C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php (34)
+in C:\xampp\htdocs\RifqiHM\index.php (13)
+2014/01/14 19:27:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''$%key%' ORDER BY nim DESC' at line 1. The SQL statement executed was: SELECT * FROM `mahasiswa` `t` WHERE nim = '$%key%' OR nama LIKE '$%key%' OR jurusan '$%key%' ORDER BY nim DESC' in C:\xampp\htdocs\MyBlog\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php(34): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionSearch()
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('search')
+#9 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('mahasiswa/searc...')
+#10 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/RifqiHM/index.php?r=mahasiswa/search
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=mahasiswa
+---
+2014/01/14 19:38:43 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\RifqiHM\protected\views\mahasiswa\search.php:8)
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(869): MahasiswaController->renderFile()
+#1 C:\xampp\htdocs\MyBlog\framework\web\CController.php(782): MahasiswaController->renderPartial()
+#2 C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php(32): MahasiswaController->render()
+#3 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionSearch()
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): MahasiswaController->runAction()
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): MahasiswaController->runActionWithFilters()
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): MahasiswaController->run()
+#8 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\RifqiHM\index.php(13): CWebApplication->run()
+REQUEST_URI=/RifqiHM/index.php?r=mahasiswa/search
+in C:\xampp\htdocs\RifqiHM\protected\views\mahasiswa\search.php (8)
+in C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php (32)
+in C:\xampp\htdocs\RifqiHM\index.php (13)
+2014/01/14 19:39:40 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\RifqiHM\protected\views\mahasiswa\search.php:8)
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(869): MahasiswaController->renderFile()
+#1 C:\xampp\htdocs\MyBlog\framework\web\CController.php(782): MahasiswaController->renderPartial()
+#2 C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php(32): MahasiswaController->render()
+#3 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionSearch()
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): MahasiswaController->runAction()
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): MahasiswaController->runActionWithFilters()
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): MahasiswaController->run()
+#8 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\RifqiHM\index.php(13): CWebApplication->run()
+REQUEST_URI=/RifqiHM/index.php?r=mahasiswa/search
+in C:\xampp\htdocs\RifqiHM\protected\views\mahasiswa\search.php (8)
+in C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php (32)
+in C:\xampp\htdocs\RifqiHM\index.php (13)
+2014/01/14 19:48:22 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.0" is not defined.' in C:\xampp\htdocs\MyBlog\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\schema\CDbCriteria.php(160): CComponent->__set('0', 'jurusan LIKE '%...')
+#1 C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php(32): CDbCriteria->__construct(Array)
+#2 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionSearch()
+#3 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('search')
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('mahasiswa/searc...')
+#8 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/RifqiHM/index.php?r=mahasiswa/search
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=mahasiswa
+---
+2014/01/14 19:48:52 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.0" is not defined.' in C:\xampp\htdocs\MyBlog\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\schema\CDbCriteria.php(160): CComponent->__set('0', 'jurusan LIKE '%...')
+#1 C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php(32): CDbCriteria->__construct(Array)
+#2 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionSearch()
+#3 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('search')
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('mahasiswa/searc...')
+#8 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/RifqiHM/index.php?r=mahasiswa/search
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=mahasiswa
+---
+2014/01/15 16:36:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('tiket')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/RifqiHM/index.php?r=tiket
+---
+2014/01/22 19:39:48 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.0" is not defined.' in C:\xampp\htdocs\MyBlog\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\schema\CDbCriteria.php(160): CComponent->__set('0', 'nama LIKE '%'')
+#1 C:\xampp\htdocs\RifqiHM\protected\controllers\MahasiswaController.php(32): CDbCriteria->__construct(Array)
+#2 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionSearch()
+#3 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('search')
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('mahasiswa/searc...')
+#8 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\RifqiHM\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/RifqiHM/index.php?r=mahasiswa/search
+HTTP_REFERER=http://localhost/RifqiHM/index.php?r=mahasiswa
+---

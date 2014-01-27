@@ -1,0 +1,1743 @@
+2013/10/31 15:03:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "biodata" was not found.' in C:\xampp\htdocs\MyBlog\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('biodata')
+#1 C:\xampp\htdocs\MyBlog\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\WaOne\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Waone/index.php?r=site/page&view=biodata
+HTTP_REFERER=http://localhost/Waone/
+---
+2013/12/12 09:50:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "siteController".' in C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('siteController')
+#1 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Ricky\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ricky/index.php?r=siteController
+---
+2013/12/12 09:51:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "LabelController.php".' in C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('LabelController...')
+#1 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Ricky\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ricky/index.php?r=LabelController.php
+---
+2013/12/12 10:51:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "nama/index".' in C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('nama/index')
+#1 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Ricky\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ricky/index.php?r=nama/index
+---
+2013/12/12 10:51:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "nama/index".' in C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('nama/index')
+#1 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Ricky\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ricky/index.php?r=nama/index
+---
+2013/12/12 10:52:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "siteController".' in C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('siteController')
+#1 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Ricky\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Ricky/index.php?r=siteController
+---
+2013/12/13 06:51:15 [error] [php] Undefined variable: form (C:\xampp\htdocs\Ricky\protected\views\label\label.php:2)
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(869): LabelController->renderFile()
+#1 C:\xampp\htdocs\MyBlog\framework\web\CController.php(782): LabelController->renderPartial()
+#2 C:\xampp\htdocs\Ricky\protected\controllers\LabelController.php(4): LabelController->render()
+#3 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): LabelController->actionlabel()
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): LabelController->runAction()
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): LabelController->runActionWithFilters()
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): LabelController->run()
+#8 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Ricky\index.php(13): CWebApplication->run()
+REQUEST_URI=/Ricky/index.php?r=label/label
+in C:\xampp\htdocs\Ricky\protected\views\label\label.php (2)
+in C:\xampp\htdocs\Ricky\protected\controllers\LabelController.php (4)
+in C:\xampp\htdocs\Ricky\index.php (13)
+2013/12/13 06:52:50 [error] [php] Undefined variable: form (C:\xampp\htdocs\Ricky\protected\views\label\label.php:2)
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(869): LabelController->renderFile()
+#1 C:\xampp\htdocs\MyBlog\framework\web\CController.php(782): LabelController->renderPartial()
+#2 C:\xampp\htdocs\Ricky\protected\controllers\LabelController.php(4): LabelController->render()
+#3 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): LabelController->actionlabel()
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): LabelController->runAction()
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): LabelController->runActionWithFilters()
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): LabelController->run()
+#8 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Ricky\index.php(13): CWebApplication->run()
+REQUEST_URI=/Ricky/index.php?r=label/label
+in C:\xampp\htdocs\Ricky\protected\views\label\label.php (2)
+in C:\xampp\htdocs\Ricky\protected\controllers\LabelController.php (4)
+in C:\xampp\htdocs\Ricky\index.php (13)
+2013/12/13 06:58:11 [error] [php] Undefined variable: form (C:\xampp\htdocs\Ricky\protected\views\label\label.php:2)
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(869): LabelController->renderFile()
+#1 C:\xampp\htdocs\MyBlog\framework\web\CController.php(782): LabelController->renderPartial()
+#2 C:\xampp\htdocs\Ricky\protected\controllers\LabelController.php(4): LabelController->render()
+#3 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): LabelController->actionlabel()
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): LabelController->runAction()
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): LabelController->runActionWithFilters()
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): LabelController->run()
+#8 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Ricky\index.php(13): CWebApplication->run()
+REQUEST_URI=/Ricky/index.php?r=label/label
+in C:\xampp\htdocs\Ricky\protected\views\label\label.php (2)
+in C:\xampp\htdocs\Ricky\protected\controllers\LabelController.php (4)
+in C:\xampp\htdocs\Ricky\index.php (13)
+2013/12/13 07:02:51 [error] [php] Undefined variable: form (C:\xampp\htdocs\Ricky\protected\views\label\index.php:2)
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(869): LabelController->renderFile()
+#1 C:\xampp\htdocs\MyBlog\framework\web\CController.php(782): LabelController->renderPartial()
+#2 C:\xampp\htdocs\Ricky\protected\controllers\LabelController.php(4): LabelController->render()
+#3 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): LabelController->actionlabel()
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): LabelController->runAction()
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): LabelController->runActionWithFilters()
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): LabelController->run()
+#8 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Ricky\index.php(13): CWebApplication->run()
+REQUEST_URI=/Ricky/index.php?r=label/label
+in C:\xampp\htdocs\Ricky\protected\views\label\index.php (2)
+in C:\xampp\htdocs\Ricky\protected\controllers\LabelController.php (4)
+in C:\xampp\htdocs\Ricky\index.php (13)
+2013/12/13 07:02:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('index')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('index')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('label/index')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Ricky\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Ricky/index.php?r=label/index
+---
+2013/12/13 07:17:15 [error] [php] Undefined variable: model (C:\xampp\htdocs\Ricky\protected\views\label\label.php:4)
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(869): LabelController->renderFile()
+#1 C:\xampp\htdocs\MyBlog\framework\web\CController.php(782): LabelController->renderPartial()
+#2 C:\xampp\htdocs\Ricky\protected\controllers\LabelController.php(4): LabelController->render()
+#3 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): LabelController->actionlabel()
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): LabelController->runAction()
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): LabelController->runActionWithFilters()
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): LabelController->run()
+#8 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Ricky\index.php(13): CWebApplication->run()
+REQUEST_URI=/Ricky/index.php?r=label/label
+in C:\xampp\htdocs\Ricky\protected\views\label\label.php (4)
+in C:\xampp\htdocs\Ricky\protected\controllers\LabelController.php (4)
+in C:\xampp\htdocs\Ricky\index.php (13)
+2013/12/13 07:18:19 [error] [php] Undefined variable: model (C:\xampp\htdocs\Ricky\protected\views\label\label.php:4)
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(869): LabelController->renderFile()
+#1 C:\xampp\htdocs\MyBlog\framework\web\CController.php(782): LabelController->renderPartial()
+#2 C:\xampp\htdocs\Ricky\protected\controllers\LabelController.php(4): LabelController->render()
+#3 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): LabelController->actionlabel()
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): LabelController->runAction()
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): LabelController->runActionWithFilters()
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): LabelController->run()
+#8 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Ricky\index.php(13): CWebApplication->run()
+REQUEST_URI=/Ricky/index.php?r=label/label
+in C:\xampp\htdocs\Ricky\protected\views\label\label.php (4)
+in C:\xampp\htdocs\Ricky\protected\controllers\LabelController.php (4)
+in C:\xampp\htdocs\Ricky\index.php (13)
+2013/12/13 07:20:02 [error] [php] Undefined variable: model (C:\xampp\htdocs\Ricky\protected\views\label\label.php:4)
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(869): LabelController->renderFile()
+#1 C:\xampp\htdocs\MyBlog\framework\web\CController.php(782): LabelController->renderPartial()
+#2 C:\xampp\htdocs\Ricky\protected\controllers\LabelController.php(4): LabelController->render()
+#3 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): LabelController->actionlabel()
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): LabelController->runAction()
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): LabelController->runActionWithFilters()
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): LabelController->run()
+#8 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Ricky\index.php(13): CWebApplication->run()
+REQUEST_URI=/Ricky/index.php?r=label/label
+in C:\xampp\htdocs\Ricky\protected\views\label\label.php (4)
+in C:\xampp\htdocs\Ricky\protected\controllers\LabelController.php (4)
+in C:\xampp\htdocs\Ricky\index.php (13)
+2013/12/13 07:21:03 [error] [php] Undefined variable: model (C:\xampp\htdocs\Ricky\protected\views\label\label.php:4)
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(869): LabelController->renderFile()
+#1 C:\xampp\htdocs\MyBlog\framework\web\CController.php(782): LabelController->renderPartial()
+#2 C:\xampp\htdocs\Ricky\protected\controllers\LabelController.php(4): LabelController->render()
+#3 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): LabelController->actionLabel()
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): LabelController->runAction()
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): LabelController->runActionWithFilters()
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): LabelController->run()
+#8 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Ricky\index.php(13): CWebApplication->run()
+REQUEST_URI=/Ricky/index.php?r=label/label
+in C:\xampp\htdocs\Ricky\protected\views\label\label.php (4)
+in C:\xampp\htdocs\Ricky\protected\controllers\LabelController.php (4)
+in C:\xampp\htdocs\Ricky\index.php (13)
+2013/12/13 07:24:33 [error] [php] Undefined variable: model (C:\xampp\htdocs\Ricky\protected\views\label\label.php:2)
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(869): LabelController->renderFile()
+#1 C:\xampp\htdocs\MyBlog\framework\web\CController.php(782): LabelController->renderPartial()
+#2 C:\xampp\htdocs\Ricky\protected\controllers\LabelController.php(4): LabelController->render()
+#3 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): LabelController->actionLabel()
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): LabelController->runAction()
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): LabelController->runActionWithFilters()
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): LabelController->run()
+#8 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Ricky\index.php(13): CWebApplication->run()
+REQUEST_URI=/Ricky/index.php?r=label/label
+in C:\xampp\htdocs\Ricky\protected\views\label\label.php (2)
+in C:\xampp\htdocs\Ricky\protected\controllers\LabelController.php (4)
+in C:\xampp\htdocs\Ricky\index.php (13)
+2013/12/13 07:28:44 [error] [php] Undefined variable: model (C:\xampp\htdocs\Ricky\protected\views\label\label.php:2)
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(869): LabelController->renderFile()
+#1 C:\xampp\htdocs\MyBlog\framework\web\CController.php(782): LabelController->renderPartial()
+#2 C:\xampp\htdocs\Ricky\protected\controllers\LabelController.php(4): LabelController->render()
+#3 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): LabelController->actionLabel()
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): LabelController->runAction()
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): LabelController->runActionWithFilters()
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): LabelController->run()
+#8 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Ricky\index.php(13): CWebApplication->run()
+REQUEST_URI=/Ricky/index.php?r=label/label
+in C:\xampp\htdocs\Ricky\protected\views\label\label.php (2)
+in C:\xampp\htdocs\Ricky\protected\controllers\LabelController.php (4)
+in C:\xampp\htdocs\Ricky\index.php (13)
+2013/12/13 07:28:45 [error] [php] Undefined variable: model (C:\xampp\htdocs\Ricky\protected\views\label\label.php:2)
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(869): LabelController->renderFile()
+#1 C:\xampp\htdocs\MyBlog\framework\web\CController.php(782): LabelController->renderPartial()
+#2 C:\xampp\htdocs\Ricky\protected\controllers\LabelController.php(4): LabelController->render()
+#3 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): LabelController->actionLabel()
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): LabelController->runAction()
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): LabelController->runActionWithFilters()
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): LabelController->run()
+#8 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Ricky\index.php(13): CWebApplication->run()
+REQUEST_URI=/Ricky/index.php?r=label/label
+in C:\xampp\htdocs\Ricky\protected\views\label\label.php (2)
+in C:\xampp\htdocs\Ricky\protected\controllers\LabelController.php (4)
+in C:\xampp\htdocs\Ricky\index.php (13)
+2013/12/13 07:29:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('label/')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Ricky\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Ricky/index.php?r=label/
+---
+2013/12/13 07:29:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('label/')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Ricky\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Ricky/index.php?r=label/
+---
+2013/12/13 07:29:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('label/')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Ricky\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Ricky/index.php?r=label/
+---
+2013/12/13 07:29:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('label/')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Ricky\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Ricky/index.php?r=label/
+---
+2013/12/13 07:30:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('label/')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Ricky\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Ricky/index.php?r=label/
+---
+2013/12/13 07:30:54 [error] [php] Undefined variable: model (C:\xampp\htdocs\Ricky\protected\views\label\label.php:4)
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(869): LabelController->renderFile()
+#1 C:\xampp\htdocs\MyBlog\framework\web\CController.php(782): LabelController->renderPartial()
+#2 C:\xampp\htdocs\Ricky\protected\controllers\LabelController.php(4): LabelController->render()
+#3 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): LabelController->actionLabel()
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): LabelController->runAction()
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): LabelController->runActionWithFilters()
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): LabelController->run()
+#8 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Ricky\index.php(13): CWebApplication->run()
+REQUEST_URI=/Ricky/index.php?r=label/label
+in C:\xampp\htdocs\Ricky\protected\views\label\label.php (4)
+in C:\xampp\htdocs\Ricky\protected\controllers\LabelController.php (4)
+in C:\xampp\htdocs\Ricky\index.php (13)
+2013/12/13 07:31:21 [error] [php] Undefined variable: model (C:\xampp\htdocs\Ricky\protected\views\label\label.php:4)
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(869): LabelController->renderFile()
+#1 C:\xampp\htdocs\MyBlog\framework\web\CController.php(782): LabelController->renderPartial()
+#2 C:\xampp\htdocs\Ricky\protected\controllers\LabelController.php(4): LabelController->render()
+#3 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): LabelController->actionLabel()
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): LabelController->runAction()
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): LabelController->runActionWithFilters()
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): LabelController->run()
+#8 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Ricky\index.php(13): CWebApplication->run()
+REQUEST_URI=/Ricky/index.php?r=label/label
+in C:\xampp\htdocs\Ricky\protected\views\label\label.php (4)
+in C:\xampp\htdocs\Ricky\protected\controllers\LabelController.php (4)
+in C:\xampp\htdocs\Ricky\index.php (13)
+2013/12/13 07:31:23 [error] [php] Undefined variable: model (C:\xampp\htdocs\Ricky\protected\views\label\label.php:4)
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(869): LabelController->renderFile()
+#1 C:\xampp\htdocs\MyBlog\framework\web\CController.php(782): LabelController->renderPartial()
+#2 C:\xampp\htdocs\Ricky\protected\controllers\LabelController.php(4): LabelController->render()
+#3 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): LabelController->actionLabel()
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): LabelController->runAction()
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): LabelController->runActionWithFilters()
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): LabelController->run()
+#8 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Ricky\index.php(13): CWebApplication->run()
+REQUEST_URI=/Ricky/index.php?r=label/label
+in C:\xampp\htdocs\Ricky\protected\views\label\label.php (4)
+in C:\xampp\htdocs\Ricky\protected\controllers\LabelController.php (4)
+in C:\xampp\htdocs\Ricky\index.php (13)
+2013/12/13 07:31:24 [error] [php] Undefined variable: model (C:\xampp\htdocs\Ricky\protected\views\label\label.php:4)
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(869): LabelController->renderFile()
+#1 C:\xampp\htdocs\MyBlog\framework\web\CController.php(782): LabelController->renderPartial()
+#2 C:\xampp\htdocs\Ricky\protected\controllers\LabelController.php(4): LabelController->render()
+#3 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): LabelController->actionLabel()
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): LabelController->runAction()
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): LabelController->runActionWithFilters()
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): LabelController->run()
+#8 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Ricky\index.php(13): CWebApplication->run()
+REQUEST_URI=/Ricky/index.php?r=label/label
+in C:\xampp\htdocs\Ricky\protected\views\label\label.php (4)
+in C:\xampp\htdocs\Ricky\protected\controllers\LabelController.php (4)
+in C:\xampp\htdocs\Ricky\index.php (13)
+2013/12/19 03:14:41 [error] [php] Undefined variable: model (C:\xampp\htdocs\Ricky\protected\views\label\label.php:13)
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(869): LabelController->renderFile()
+#1 C:\xampp\htdocs\MyBlog\framework\web\CController.php(782): LabelController->renderPartial()
+#2 C:\xampp\htdocs\Ricky\protected\controllers\LabelController.php(4): LabelController->render()
+#3 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): LabelController->actionLabel()
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): LabelController->runAction()
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): LabelController->runActionWithFilters()
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): LabelController->run()
+#8 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Ricky\index.php(13): CWebApplication->run()
+REQUEST_URI=/ricky/index.php?r=label/label
+in C:\xampp\htdocs\Ricky\protected\views\label\label.php (13)
+in C:\xampp\htdocs\Ricky\protected\controllers\LabelController.php (4)
+in C:\xampp\htdocs\Ricky\index.php (13)
+2013/12/20 12:28:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "lebel/label".' in C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('lebel/label')
+#1 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Ricky\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ricky/index.php?r=lebel/label
+---
+2013/12/20 12:28:45 [error] [php] Undefined variable: form (C:\xampp\htdocs\Ricky\protected\views\label\label.php:3)
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(869): LabelController->renderFile()
+#1 C:\xampp\htdocs\MyBlog\framework\web\CController.php(782): LabelController->renderPartial()
+#2 C:\xampp\htdocs\Ricky\protected\controllers\LabelController.php(4): LabelController->render()
+#3 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): LabelController->actionLabel()
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): LabelController->runAction()
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): LabelController->runActionWithFilters()
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): LabelController->run()
+#8 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Ricky\index.php(13): CWebApplication->run()
+REQUEST_URI=/ricky/index.php?r=label/label
+in C:\xampp\htdocs\Ricky\protected\views\label\label.php (3)
+in C:\xampp\htdocs\Ricky\protected\controllers\LabelController.php (4)
+in C:\xampp\htdocs\Ricky\index.php (13)
+2013/12/20 12:31:49 [error] [php] Undefined variable: form (C:\xampp\htdocs\Ricky\protected\views\label\label.php:3)
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(869): LabelController->renderFile()
+#1 C:\xampp\htdocs\MyBlog\framework\web\CController.php(782): LabelController->renderPartial()
+#2 C:\xampp\htdocs\Ricky\protected\controllers\LabelController.php(4): LabelController->render()
+#3 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): LabelController->actionLabel()
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): LabelController->runAction()
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): LabelController->runActionWithFilters()
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): LabelController->run()
+#8 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Ricky\index.php(13): CWebApplication->run()
+REQUEST_URI=/ricky/index.php?r=label/label
+in C:\xampp\htdocs\Ricky\protected\views\label\label.php (3)
+in C:\xampp\htdocs\Ricky\protected\controllers\LabelController.php (4)
+in C:\xampp\htdocs\Ricky\index.php (13)
+2013/12/20 12:32:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "label".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('label')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('label')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('label/label')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Ricky\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ricky/index.php?r=label/label
+---
+2013/12/20 12:37:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "label/label".' in C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('label/label')
+#1 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Ricky\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ricky/index.php?r=label/label
+---
+2013/12/20 12:43:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "label/label".' in C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('label/label')
+#1 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Ricky\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ricky/index.php?r=label/label
+---
+2013/12/20 12:43:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "label/label".' in C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('label/label')
+#1 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Ricky\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ricky/index.php?r=label/label
+---
+2013/12/20 12:43:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "label/label".' in C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('label/label')
+#1 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Ricky\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ricky/index.php?r=label/label
+---
+2013/12/20 12:45:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "label/label".' in C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('label/label')
+#1 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Ricky\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ricky/index.php?r=label/label
+---
+2013/12/20 12:45:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "label/label".' in C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('label/label')
+#1 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Ricky\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ricky/index.php?r=label/label
+---
+2013/12/20 12:45:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "label/label".' in C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('label/label')
+#1 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Ricky\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ricky/index.php?r=label/label
+---
+2013/12/20 12:50:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "label".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('label')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('label')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('label/label/ter...')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Ricky\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ricky/index.php?r=label/label/terserah
+---
+2013/12/20 12:50:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "terserah".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('terserah')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('terserah')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('label/terserah')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Ricky\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ricky/index.php?r=label/terserah
+---
+2013/12/20 12:50:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "terserah.php".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('terserah.php')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('terserah.php')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('label/terserah....')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Ricky\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ricky/index.php?r=label/terserah.php
+---
+2013/12/20 12:51:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "terserah?cms".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('terserah?cms')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('terserah?cms')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('label/terserah?...')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Ricky\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ricky/index.php?r=label/terserah?cms
+---
+2013/12/20 12:51:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "label.php".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('label.php')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('label.php')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('label/label.php')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Ricky\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ricky/index.php?r=label/label.php
+---
+2013/12/20 12:53:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "label.php".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('label.php')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('label.php')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('label/label.php')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Ricky\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ricky/index.php?r=label/label.php
+---
+2013/12/20 12:54:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "label".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('label')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('label')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('label/label')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Ricky\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ricky/index.php?r=label/label
+---
+2013/12/20 12:56:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "label".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('label')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('label')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('site/label')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Ricky\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ricky/index.php?r=site/label
+---
+2013/12/22 14:46:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "label".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('label')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('label')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('label/label')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/waone/index.php?r=label/label
+---
+2013/12/22 14:46:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "terserah".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('terserah')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('terserah')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('label/terserah')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/waone/index.php?r=label/terserah
+---
+2013/12/22 14:47:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "terserah".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('terserah')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('terserah')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('label/terserah')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/waone/index.php?r=label/terserah
+---
+2013/12/22 15:09:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "label".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('label')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('label')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('label/label')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/waone/index.php?r=label/label
+---
+2013/12/22 15:09:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "terserah".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('terserah')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('terserah')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('label/terserah')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/waone/index.php?r=label/terserah
+---
+2013/12/22 15:10:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "label".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('label')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('label')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('label/label')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/waone/index.php?r=label/label
+---
+2013/12/22 15:10:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "label".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('label')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('label')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('label/label')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/waone/index.php?r=label/label
+---
+2013/12/22 15:10:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "label".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('label')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('label')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('label/label')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/waone/index.php?r=label/label
+---
+2013/12/22 15:10:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "label".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('label')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('label')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('label/label')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/waone/index.php?r=label/label
+---
+2013/12/22 15:10:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "label".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('label')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('label')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('label/label')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/waone/index.php?r=label/label
+---
+2013/12/22 15:10:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "label".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('label')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('label')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('label/label')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/waone/index.php?r=label/label
+---
+2013/12/22 15:10:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "label".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('label')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('label')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('label/label')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/waone/index.php?r=label/label
+---
+2013/12/22 15:21:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "label2".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('label2')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('label2')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('label/label2')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/waone/index.php?r=label/label2
+---
+2013/12/22 15:22:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "label2".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('label2')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('label2')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('label/label2')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/waone/index.php?r=label/label2
+---
+2013/12/22 15:22:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "label2".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('label2')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('label2')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('label/label2')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/waone/index.php?r=label/label2
+---
+2013/12/22 15:22:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "label2".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('label2')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('label2')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('label/label2')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/waone/index.php?r=label/label2
+---
+2013/12/22 15:24:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "label2".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('label2')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('label2')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('label/label2')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/waone/index.php?r=label/label2
+---
+2013/12/22 15:24:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "label2".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('label2')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('label2')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('label/label2')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/waone/index.php?r=label/label2
+---
+2013/12/22 15:24:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "label2".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('label2')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('label2')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('label/label2')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/waone/index.php?r=label/label2
+---
+2013/12/22 15:24:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "label2".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('label2')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('label2')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('label/label2')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/waone/index.php?r=label/label2
+---
+2013/12/31 08:10:56 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'kuliah_yii.fakultas' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `fakultas`.
+in C:\xampp\htdocs\Waone\protected\models\Tugas.php (5)
+in C:\xampp\htdocs\Waone\protected\controllers\TugasController.php (11)
+in C:\xampp\htdocs\Waone\index.php (13)
+2013/12/31 08:10:56 [error] [exception.CDbException] exception 'CDbException' with message 'The table "fakultas" for active record class "Tugas" cannot be found in the database.' in C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(Tugas))
+#1 C:\xampp\htdocs\Waone\protected\models\Tugas.php(5): CActiveRecord::model('Tugas')
+#2 C:\xampp\htdocs\Waone\protected\controllers\TugasController.php(11): Tugas::model()
+#3 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): TugasController->actionIndex()
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('tugas')
+#9 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/waone/index.php?r=tugas
+---
+2013/12/31 08:37:27 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`kuliah_yii`.`tbl_krs`, CONSTRAINT `FK_tbl_krs` FOREIGN KEY (`mhs_id`) REFERENCES `tbl_mhs` (`no_mhs`) ON UPDATE CASCADE). The SQL statement executed was: UPDATE `tbl_mhs` SET `no_mhs`=:yp0, `nama`=:yp1, `alamat`=:yp2, `tanggal_lahir`=:yp3, `jenis_kelamin`=:yp4, `jurusan_id`=:yp5, `no_tlp`=:yp6, `nama_orang_tua`=:yp7 WHERE `tbl_mhs`.`no_mhs`='11311002'.
+in C:\xampp\htdocs\Waone\protected\controllers\TblMhsController.php (97)
+in C:\xampp\htdocs\Waone\index.php (13)
+2013/12/31 08:37:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`kuliah_yii`.`tbl_krs`, CONSTRAINT `FK_tbl_krs` FOREIGN KEY (`mhs_id`) REFERENCES `tbl_mhs` (`no_mhs`) ON UPDATE CASCADE). The SQL statement executed was: UPDATE `tbl_mhs` SET `no_mhs`=:yp0, `nama`=:yp1, `alamat`=:yp2, `tanggal_lahir`=:yp3, `jenis_kelamin`=:yp4, `jurusan_id`=:yp5, `no_tlp`=:yp6, `nama_orang_tua`=:yp7 WHERE `tbl_mhs`.`no_mhs`='11311002'' in C:\xampp\htdocs\MyBlog\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(1691): CDbCommand->execute()
+#1 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(1070): CActiveRecord->updateByPk('11311002', Array)
+#2 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(795): CActiveRecord->update(NULL)
+#3 C:\xampp\htdocs\Waone\protected\controllers\TblMhsController.php(97): CActiveRecord->save()
+#4 [internal function]: TblMhsController->actionUpdate('11311002')
+#5 C:\xampp\htdocs\MyBlog\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(TblMhsController), Array)
+#6 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(TblMhsController), Object(ReflectionMethod), Array)
+#7 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\xampp\htdocs\MyBlog\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\MyBlog\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\MyBlog\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('update')
+#16 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('tblmhs/update')
+#17 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/waone/index.php?r=tblmhs/update&id=11311002
+HTTP_REFERER=http://localhost/waone/index.php?r=tblmhs/update&id=11311002
+---
+2013/12/31 08:38:59 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`kuliah_yii`.`tbl_krs`, CONSTRAINT `FK_tbl_krs` FOREIGN KEY (`mhs_id`) REFERENCES `tbl_mhs` (`no_mhs`) ON UPDATE CASCADE). The SQL statement executed was: UPDATE `tbl_mhs` SET `no_mhs`=:yp0, `nama`=:yp1, `alamat`=:yp2, `tanggal_lahir`=:yp3, `jenis_kelamin`=:yp4, `jurusan_id`=:yp5, `no_tlp`=:yp6, `nama_orang_tua`=:yp7 WHERE `tbl_mhs`.`no_mhs`='11311002'.
+in C:\xampp\htdocs\Waone\protected\controllers\TblMhsController.php (97)
+in C:\xampp\htdocs\Waone\index.php (13)
+2013/12/31 08:38:59 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`kuliah_yii`.`tbl_krs`, CONSTRAINT `FK_tbl_krs` FOREIGN KEY (`mhs_id`) REFERENCES `tbl_mhs` (`no_mhs`) ON UPDATE CASCADE). The SQL statement executed was: UPDATE `tbl_mhs` SET `no_mhs`=:yp0, `nama`=:yp1, `alamat`=:yp2, `tanggal_lahir`=:yp3, `jenis_kelamin`=:yp4, `jurusan_id`=:yp5, `no_tlp`=:yp6, `nama_orang_tua`=:yp7 WHERE `tbl_mhs`.`no_mhs`='11311002'' in C:\xampp\htdocs\MyBlog\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(1691): CDbCommand->execute()
+#1 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(1070): CActiveRecord->updateByPk('11311002', Array)
+#2 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(795): CActiveRecord->update(NULL)
+#3 C:\xampp\htdocs\Waone\protected\controllers\TblMhsController.php(97): CActiveRecord->save()
+#4 [internal function]: TblMhsController->actionUpdate('11311002')
+#5 C:\xampp\htdocs\MyBlog\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(TblMhsController), Array)
+#6 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(TblMhsController), Object(ReflectionMethod), Array)
+#7 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\xampp\htdocs\MyBlog\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\MyBlog\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\MyBlog\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('update')
+#16 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('tblmhs/update')
+#17 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/waone/index.php?r=tblmhs/update&id=11311002
+HTTP_REFERER=http://localhost/waone/index.php?r=tblmhs/update&id=11311002
+---
+2013/12/31 08:42:17 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`kuliah_yii`.`tbl_krs`, CONSTRAINT `FK_tbl_krs` FOREIGN KEY (`mhs_id`) REFERENCES `tbl_mhs` (`no_mhs`) ON UPDATE CASCADE). The SQL statement executed was: UPDATE `tbl_mhs` SET `no_mhs`=:yp0, `nama`=:yp1, `alamat`=:yp2, `tanggal_lahir`=:yp3, `jenis_kelamin`=:yp4, `jurusan_id`=:yp5, `no_tlp`=:yp6, `nama_orang_tua`=:yp7 WHERE `tbl_mhs`.`no_mhs`='11311002'.
+in C:\xampp\htdocs\Waone\protected\controllers\TblMhsController.php (97)
+in C:\xampp\htdocs\Waone\index.php (13)
+2013/12/31 08:42:17 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`kuliah_yii`.`tbl_krs`, CONSTRAINT `FK_tbl_krs` FOREIGN KEY (`mhs_id`) REFERENCES `tbl_mhs` (`no_mhs`) ON UPDATE CASCADE). The SQL statement executed was: UPDATE `tbl_mhs` SET `no_mhs`=:yp0, `nama`=:yp1, `alamat`=:yp2, `tanggal_lahir`=:yp3, `jenis_kelamin`=:yp4, `jurusan_id`=:yp5, `no_tlp`=:yp6, `nama_orang_tua`=:yp7 WHERE `tbl_mhs`.`no_mhs`='11311002'' in C:\xampp\htdocs\MyBlog\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(1691): CDbCommand->execute()
+#1 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(1070): CActiveRecord->updateByPk('11311002', Array)
+#2 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(795): CActiveRecord->update(NULL)
+#3 C:\xampp\htdocs\Waone\protected\controllers\TblMhsController.php(97): CActiveRecord->save()
+#4 [internal function]: TblMhsController->actionUpdate('11311002')
+#5 C:\xampp\htdocs\MyBlog\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(TblMhsController), Array)
+#6 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(TblMhsController), Object(ReflectionMethod), Array)
+#7 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\xampp\htdocs\MyBlog\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\MyBlog\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\MyBlog\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('update')
+#16 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('tblmhs/update')
+#17 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/waone/index.php?r=tblmhs/update&id=11311002
+HTTP_REFERER=http://localhost/waone/index.php?r=tblmhs/update&id=11311002
+---
+2013/12/31 08:45:05 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`kuliah_yii`.`tbl_krs`, CONSTRAINT `FK_tbl_krs` FOREIGN KEY (`mhs_id`) REFERENCES `tbl_mhs` (`no_mhs`) ON UPDATE CASCADE). The SQL statement executed was: UPDATE `tbl_mhs` SET `no_mhs`=:yp0, `nama`=:yp1, `alamat`=:yp2, `tanggal_lahir`=:yp3, `jenis_kelamin`=:yp4, `jurusan_id`=:yp5, `no_tlp`=:yp6, `nama_orang_tua`=:yp7 WHERE `tbl_mhs`.`no_mhs`='11311002'.
+in C:\xampp\htdocs\Waone\protected\controllers\TblMhsController.php (97)
+in C:\xampp\htdocs\Waone\index.php (13)
+2013/12/31 08:45:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`kuliah_yii`.`tbl_krs`, CONSTRAINT `FK_tbl_krs` FOREIGN KEY (`mhs_id`) REFERENCES `tbl_mhs` (`no_mhs`) ON UPDATE CASCADE). The SQL statement executed was: UPDATE `tbl_mhs` SET `no_mhs`=:yp0, `nama`=:yp1, `alamat`=:yp2, `tanggal_lahir`=:yp3, `jenis_kelamin`=:yp4, `jurusan_id`=:yp5, `no_tlp`=:yp6, `nama_orang_tua`=:yp7 WHERE `tbl_mhs`.`no_mhs`='11311002'' in C:\xampp\htdocs\MyBlog\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(1691): CDbCommand->execute()
+#1 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(1070): CActiveRecord->updateByPk('11311002', Array)
+#2 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(795): CActiveRecord->update(NULL)
+#3 C:\xampp\htdocs\Waone\protected\controllers\TblMhsController.php(97): CActiveRecord->save()
+#4 [internal function]: TblMhsController->actionUpdate('11311002')
+#5 C:\xampp\htdocs\MyBlog\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(TblMhsController), Array)
+#6 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(TblMhsController), Object(ReflectionMethod), Array)
+#7 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\xampp\htdocs\MyBlog\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\MyBlog\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\MyBlog\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('update')
+#16 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('tblmhs/update')
+#17 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/waone/index.php?r=tblmhs/update&id=11311002
+HTTP_REFERER=http://localhost/waone/index.php?r=tblmhs/update&id=11311002
+---
+2014/01/02 14:21:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "about" was not found.' in C:\xampp\htdocs\MyBlog\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('about')
+#1 C:\xampp\htdocs\MyBlog\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/waone/index.php?r=site/page&view=about
+HTTP_REFERER=http://localhost/waone/index.php?r=tugas
+---
+2014/01/02 14:21:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "about" was not found.' in C:\xampp\htdocs\MyBlog\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('about')
+#1 C:\xampp\htdocs\MyBlog\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/waone/index.php?r=site/page&view=about
+HTTP_REFERER=http://localhost/waone/index.php?r=site/contact
+---
+2014/01/02 14:26:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "biodata" was not found.' in C:\xampp\htdocs\MyBlog\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('biodata')
+#1 C:\xampp\htdocs\MyBlog\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/waone/index.php?r=site/page&view=biodata
+HTTP_REFERER=http://localhost/waone/index.php?r=tugas
+---
+2014/01/03 06:35:25 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\MyBlog\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\MyBlog\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\MyBlog\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('tblmhs/admin')
+#9 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/waone/index.php?r=tblmhs/admin
+HTTP_REFERER=http://localhost/waone/index.php?r=tblmhs
+---
+2014/01/05 15:55:30 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`tugasyii`.`mengambil`, CONSTRAINT `mengambil_ibfk_1` FOREIGN KEY (`nim`) REFERENCES `tbl_mhs` (`nim`)). The SQL statement executed was: DELETE FROM `tbl_mhs` WHERE `tbl_mhs`.`nim`='1100631004'.
+in C:\xampp\htdocs\Waone\protected\controllers\TblMhsController.php (113)
+in C:\xampp\htdocs\Waone\index.php (13)
+2014/01/05 15:55:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`tugasyii`.`mengambil`, CONSTRAINT `mengambil_ibfk_1` FOREIGN KEY (`nim`) REFERENCES `tbl_mhs` (`nim`)). The SQL statement executed was: DELETE FROM `tbl_mhs` WHERE `tbl_mhs`.`nim`='1100631004'' in C:\xampp\htdocs\MyBlog\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(1745): CDbCommand->execute()
+#1 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(1168): CActiveRecord->deleteByPk('1100631004')
+#2 C:\xampp\htdocs\Waone\protected\controllers\TblMhsController.php(113): CActiveRecord->delete()
+#3 [internal function]: TblMhsController->actionDelete('1100631004')
+#4 C:\xampp\htdocs\MyBlog\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(TblMhsController), Array)
+#5 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(TblMhsController), Object(ReflectionMethod), Array)
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\MyBlog\framework\web\CController.php(1116): CFilterChain->run()
+#9 C:\xampp\htdocs\MyBlog\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#10 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\xampp\htdocs\MyBlog\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\MyBlog\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\xampp\htdocs\MyBlog\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('delete')
+#18 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('tblmhs/delete')
+#19 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/waone/index.php?r=tblmhs%2Fdelete&id=1100631004&ajax=tbl-mhs-grid
+HTTP_REFERER=http://localhost/waone/index.php?r=tblmhs/admin
+---
+2014/01/05 15:55:55 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`tugasyii`.`mengambil`, CONSTRAINT `mengambil_ibfk_1` FOREIGN KEY (`nim`) REFERENCES `tbl_mhs` (`nim`)). The SQL statement executed was: DELETE FROM `tbl_mhs` WHERE `tbl_mhs`.`nim`='1100631015'.
+in C:\xampp\htdocs\Waone\protected\controllers\TblMhsController.php (113)
+in C:\xampp\htdocs\Waone\index.php (13)
+2014/01/05 15:55:55 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`tugasyii`.`mengambil`, CONSTRAINT `mengambil_ibfk_1` FOREIGN KEY (`nim`) REFERENCES `tbl_mhs` (`nim`)). The SQL statement executed was: DELETE FROM `tbl_mhs` WHERE `tbl_mhs`.`nim`='1100631015'' in C:\xampp\htdocs\MyBlog\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(1745): CDbCommand->execute()
+#1 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(1168): CActiveRecord->deleteByPk('1100631015')
+#2 C:\xampp\htdocs\Waone\protected\controllers\TblMhsController.php(113): CActiveRecord->delete()
+#3 [internal function]: TblMhsController->actionDelete('1100631015')
+#4 C:\xampp\htdocs\MyBlog\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(TblMhsController), Array)
+#5 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(TblMhsController), Object(ReflectionMethod), Array)
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\MyBlog\framework\web\CController.php(1116): CFilterChain->run()
+#9 C:\xampp\htdocs\MyBlog\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#10 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\xampp\htdocs\MyBlog\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\MyBlog\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\xampp\htdocs\MyBlog\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('delete')
+#18 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('tblmhs/delete')
+#19 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/waone/index.php?r=tblmhs%2Fdelete&id=1100631015&ajax=tbl-mhs-grid
+HTTP_REFERER=http://localhost/waone/index.php?r=tblmhs/admin
+---
+2014/01/06 06:44:35 [error] [exception.CException] exception 'CException' with message 'Alias "zii.widgets.CGridView" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\MyBlog\framework\YiiBase.php:316
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CWidgetFactory.php(146): YiiBase::import('zii.widgets.CGr...', true)
+#1 C:\xampp\htdocs\MyBlog\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(TblMhsController), 'zii.widgets.CGr...', Array)
+#2 C:\xampp\htdocs\MyBlog\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CGr...', Array)
+#3 C:\xampp\htdocs\Waone\protected\views\tblMhs\index.php(23): CBaseController->widget('zii.widgets.CGr...', Array)
+#4 C:\xampp\htdocs\MyBlog\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\MyBlog\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\MyBlog\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 C:\xampp\htdocs\Waone\protected\controllers\TblMhsController.php(128): CController->render('index', Array)
+#9 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): TblMhsController->actionIndex()
+#10 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\xampp\htdocs\MyBlog\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\MyBlog\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\MyBlog\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('tblmhs')
+#20 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/waone/index.php?r=tblmhs
+HTTP_REFERER=http://localhost/waone/index.php?r=site/index
+---
+2014/01/06 06:48:17 [error] [php] Undefined variable: model (C:\xampp\htdocs\Waone\protected\views\tblMhs\index.php:22)
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(869): TblMhsController->renderFile()
+#1 C:\xampp\htdocs\MyBlog\framework\web\CController.php(782): TblMhsController->renderPartial()
+#2 C:\xampp\htdocs\Waone\protected\controllers\TblMhsController.php(128): TblMhsController->render()
+#3 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): TblMhsController->actionIndex()
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilterChain.php(133): TblMhsController->runAction()
+#6 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\MyBlog\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\MyBlog\framework\web\filters\CInlineFilter.php(58): TblMhsController->filterAccessControl()
+#9 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\MyBlog\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): TblMhsController->runActionWithFilters()
+#12 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): TblMhsController->run()
+#13 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\Waone\index.php(13): CWebApplication->run()
+REQUEST_URI=/waone/index.php?r=tblmhs
+in C:\xampp\htdocs\Waone\protected\views\tblMhs\index.php (22)
+in C:\xampp\htdocs\Waone\protected\controllers\TblMhsController.php (128)
+in C:\xampp\htdocs\Waone\index.php (13)
+2014/01/06 16:49:12 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.verifyCode" is not defined.' in C:\xampp\htdocs\MyBlog\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\helpers\CHtml.php(2255): CComponent->__get('verifyCode')
+#1 C:\xampp\htdocs\MyBlog\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(LoginForm), 'verifyCode')
+#2 C:\xampp\htdocs\MyBlog\framework\web\helpers\CHtml.php(1257): CHtml::activeInputField('text', Object(LoginForm), 'verifyCode', Array)
+#3 C:\xampp\htdocs\MyBlog\framework\web\widgets\CActiveForm.php(657): CHtml::activeTextField(Object(LoginForm), 'verifyCode', Array)
+#4 C:\xampp\htdocs\Waone\protected\views\site\login.php(56): CActiveForm->textField(Object(LoginForm), 'verifyCode')
+#5 C:\xampp\htdocs\MyBlog\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\MyBlog\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\MyBlog\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\MyBlog\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#9 C:\xampp\htdocs\Waone\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#10 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#11 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('login')
+#15 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#16 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/waone/index.php?r=site/login
+HTTP_REFERER=http://localhost/waone/index.php?r=site/contact
+---
+2014/01/07 05:02:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tblmhs".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('tblmhs')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('tblmhs')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('site/tblmhs')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/waone/index.php?r=site/tblmhs
+HTTP_REFERER=http://localhost/waone/
+---
+2014/01/07 05:03:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "view/tblmhs".' in C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('view/tblmhs')
+#1 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/waone/index.php?r=view/tblmhs
+HTTP_REFERER=http://localhost/waone/
+---
+2014/01/07 13:41:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "facebook.com/waone.dangers".' in C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('facebook.com/wa...')
+#1 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/waone/index.php?r=facebook.com/waone.dangers
+HTTP_REFERER=http://localhost/waone/index.php?r=site/page&view=about
+---
+2014/01/07 14:26:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tampil/index".' in C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('tampil/index')
+#1 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/waone/index.php?r=tampil/index
+HTTP_REFERER=http://localhost/waone/index.php?r=tblmhs/index
+---
+2014/01/07 14:26:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tampil/index".' in C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('tampil/index')
+#1 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/waone/index.php?r=tampil/index
+HTTP_REFERER=http://localhost/waone/index.php?r=tampil/index
+---
+2014/01/07 14:29:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tampil/index.php".' in C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('tampil/index.ph...')
+#1 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/waone/index.php?r=tampil/index.php
+---
+2014/01/07 14:29:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tampil/index.php".' in C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('tampil/index.ph...')
+#1 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/waone/index.php?r=tampil/index.php
+---
+2014/01/07 14:31:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tampil/index.php".' in C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('tampil/index.ph...')
+#1 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/waone/index.php?r=tampil/index.php
+---
+2014/01/08 14:07:19 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tugasyii.krs' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `krs`.
+in C:\xampp\htdocs\Waone\protected\models\Tugas.php (5)
+in C:\xampp\htdocs\Waone\protected\controllers\TampilController.php (11)
+in C:\xampp\htdocs\Waone\index.php (13)
+2014/01/08 14:07:19 [error] [exception.CDbException] exception 'CDbException' with message 'The table "krs" for active record class "Tugas" cannot be found in the database.' in C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(Tugas))
+#1 C:\xampp\htdocs\Waone\protected\models\Tugas.php(5): CActiveRecord::model('Tugas')
+#2 C:\xampp\htdocs\Waone\protected\controllers\TampilController.php(11): Tugas::model()
+#3 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): TampilController->actionIndex()
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('tampil')
+#9 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/waone/index.php?r=tampil
+---
+2014/01/08 14:08:12 [error] [php] Undefined variable: data (C:\xampp\htdocs\Waone\protected\controllers\TampilController.php:13)
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): TampilController->runAction()
+#1 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): TampilController->runActionWithFilters()
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): TampilController->run()
+#3 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\Waone\index.php(13): CWebApplication->run()
+REQUEST_URI=/waone/index.php?r=tampil
+in C:\xampp\htdocs\Waone\protected\controllers\TampilController.php (13)
+in C:\xampp\htdocs\Waone\index.php (13)
+2014/01/08 14:11:16 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tugasyii.tampil' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `Tampil`.
+in C:\xampp\htdocs\Waone\protected\models\Tampil.php (5)
+in C:\xampp\htdocs\Waone\protected\controllers\TampilController.php (11)
+in C:\xampp\htdocs\Waone\index.php (13)
+2014/01/08 14:11:16 [error] [exception.CDbException] exception 'CDbException' with message 'The table "Tampil" for active record class "Tampil" cannot be found in the database.' in C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(Tampil))
+#1 C:\xampp\htdocs\Waone\protected\models\Tampil.php(5): CActiveRecord::model('Tampil')
+#2 C:\xampp\htdocs\Waone\protected\controllers\TampilController.php(11): Tampil::model()
+#3 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): TampilController->actionIndex()
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('tampil')
+#9 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/waone/index.php?r=tampil
+---
+2014/01/08 14:14:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('tampil/index.ph...')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/waone/index.php?r=tampil/index.php
+---
+2014/01/08 14:15:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('tampil/index.ph...')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/waone/index.php?r=tampil/index.php
+---
+2014/01/08 14:15:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('tampil/index.ph...')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/waone/index.php?r=tampil/index.php
+---
+2014/01/08 14:16:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('tampil/index.ph...')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/waone/index.php?r=tampil/index.php
+---
+2014/01/10 03:35:54 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\MyBlog\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\MyBlog\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\MyBlog\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('tblmhs/admin')
+#9 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/waone/index.php?r=tblmhs/admin
+HTTP_REFERER=http://localhost/waone/index.php?r=site/login
+---
+2014/01/10 14:13:37 [error] [exception.CException] exception 'CException' with message 'Property "CJuiDatePicker.option" is not defined.' in C:\xampp\htdocs\MyBlog\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CWidgetFactory.php(161): CComponent->__set('option', Array)
+#1 C:\xampp\htdocs\MyBlog\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(TblMhsController), 'zii.widgets.jui...', Array)
+#2 C:\xampp\htdocs\MyBlog\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.jui...', Array)
+#3 C:\xampp\htdocs\Waone\protected\views\tblMhs\_form.php(48): CBaseController->widget('zii.widgets.jui...', Array)
+#4 C:\xampp\htdocs\MyBlog\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\MyBlog\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\Waone\protected\views\tblMhs\create.php(20): CController->renderPartial('_form', Array)
+#8 C:\xampp\htdocs\MyBlog\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#9 C:\xampp\htdocs\MyBlog\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#10 C:\xampp\htdocs\MyBlog\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\MyBlog\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#12 C:\xampp\htdocs\Waone\protected\controllers\TblMhsController.php(79): CController->render('create', Array)
+#13 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): TblMhsController->actionCreate()
+#14 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\xampp\htdocs\MyBlog\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\MyBlog\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\MyBlog\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('create')
+#23 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('tblmhs/create')
+#24 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#25 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/waone/index.php?r=tblmhs/create
+HTTP_REFERER=http://localhost/waone/index.php?r=tblmhs/index
+---
+2014/01/10 14:27:47 [error] [exception.CException] exception 'CException' with message 'Property "CJuiDatePicker.option" is not defined.' in C:\xampp\htdocs\MyBlog\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CWidgetFactory.php(161): CComponent->__set('option', Array)
+#1 C:\xampp\htdocs\MyBlog\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(TblMhsController), 'zii.widgets.jui...', Array)
+#2 C:\xampp\htdocs\MyBlog\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.jui...', Array)
+#3 C:\xampp\htdocs\Waone\protected\views\tblMhs\_form.php(48): CBaseController->widget('zii.widgets.jui...', Array)
+#4 C:\xampp\htdocs\MyBlog\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\MyBlog\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\MyBlog\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\Waone\protected\views\tblMhs\create.php(20): CController->renderPartial('_form', Array)
+#8 C:\xampp\htdocs\MyBlog\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#9 C:\xampp\htdocs\MyBlog\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#10 C:\xampp\htdocs\MyBlog\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\MyBlog\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#12 C:\xampp\htdocs\Waone\protected\controllers\TblMhsController.php(79): CController->render('create', Array)
+#13 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): TblMhsController->actionCreate()
+#14 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\xampp\htdocs\MyBlog\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\MyBlog\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\MyBlog\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('create')
+#23 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('tblmhs/create')
+#24 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#25 C:\xampp\htdocs\Waone\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/waone/index.php?r=tblmhs/create
+HTTP_REFERER=http://localhost/waone/index.php?r=tblmhs/index
+---
+2014/01/11 15:39:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('tampil/images/u...')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\tugasyii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tugasyii/index.php/tampil/images/unmuh.gif
+HTTP_REFERER=http://localhost/tugasyii/index.php/tampil/index
+---
+2014/01/11 15:40:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('tampil/images/u...')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\tugasyii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tugasyii/index.php/tampil/images/unmuh.gif
+HTTP_REFERER=http://localhost/tugasyii/index.php/tampil/index
+---
+2014/01/11 15:42:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/wao...')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\tugasyii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tugasyii/index.php/site/images/waone.jpg
+HTTP_REFERER=http://localhost/tugasyii/index.php/site/page?view=about
+---
+2014/01/12 14:43:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "beranda.php".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('beranda.php')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('beranda.php')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('beranda/beranda...')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\tugasyii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tugasyii/index.php?r=beranda/beranda.php
+---
+2014/01/12 14:44:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "beranda.php".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('beranda.php')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('beranda.php')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('beranda/beranda...')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\tugasyii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tugasyii/index.php?r=beranda/beranda.php
+---
+2014/01/12 14:44:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "beranda.php".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('beranda.php')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('beranda.php')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('beranda/beranda...')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\tugasyii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tugasyii/index.php?r=beranda/beranda.php
+---
+2014/01/12 14:45:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "beranda.php".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('beranda.php')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('beranda.php')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('beranda/beranda...')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\tugasyii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tugasyii/index.php?r=beranda/beranda.php
+---
+2014/01/12 14:45:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "beranda.php".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('beranda.php')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('beranda.php')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('beranda/beranda...')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\tugasyii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tugasyii/index.php?r=beranda/beranda.php
+---
+2014/01/12 16:01:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "yii/index".' in C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('yii/index')
+#1 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\tugasyii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tugasyii/index.php?r=yii/index
+HTTP_REFERER=http://localhost/tugasyii/index.php?r=tampil/index
+---
+2014/01/12 16:02:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "yii/index".' in C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('yii/index')
+#1 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\tugasyii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tugasyii/index.php?r=yii/index
+HTTP_REFERER=http://localhost/tugasyii/index.php?r=yii/index
+---
+2014/01/15 07:35:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tblmatakuliah".' in C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('tblmatakuliah')
+#1 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\tugasyii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tugasyii/index.php?r=tblmatakuliah
+---
+2014/01/15 07:36:06 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tugasyii.tbl_mkuliah' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_mkuliah`.
+in C:\xampp\htdocs\tugasyii\protected\controllers\TblMkuliahController.php (125)
+in C:\xampp\htdocs\tugasyii\index.php (13)
+2014/01/15 07:36:06 [error] [exception.CDbException] exception 'CDbException' with message 'The table "tbl_mkuliah" for active record class "TblMkuliah" cannot be found in the database.' in C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(TblMkuliah))
+#1 C:\xampp\htdocs\MyBlog\framework\web\CActiveDataProvider.php(74): CActiveRecord::model('TblMkuliah')
+#2 C:\xampp\htdocs\tugasyii\protected\controllers\TblMkuliahController.php(125): CActiveDataProvider->__construct('TblMkuliah')
+#3 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): TblMkuliahController->actionIndex()
+#4 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\MyBlog\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\MyBlog\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\MyBlog\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('')
+#13 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('tblmkuliah')
+#14 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\tugasyii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/tugasyii/index.php?r=tblmkuliah
+---
+2014/01/23 15:11:59 [error] [php] mysql_num_rows() expects parameter 1 to be resource, boolean given (C:\xampp\htdocs\tugasyii\protected\views\tblMhs\index.php:50)
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CBaseController.php(95): TblMhsController->renderInternal()
+#1 C:\xampp\htdocs\MyBlog\framework\web\CController.php(869): TblMhsController->renderFile()
+#2 C:\xampp\htdocs\MyBlog\framework\web\CController.php(782): TblMhsController->renderPartial()
+#3 C:\xampp\htdocs\tugasyii\protected\controllers\TblMhsController.php(128): TblMhsController->render()
+#4 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): TblMhsController->actionIndex()
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilterChain.php(133): TblMhsController->runAction()
+#7 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp\htdocs\MyBlog\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#9 C:\xampp\htdocs\MyBlog\framework\web\filters\CInlineFilter.php(58): TblMhsController->filterAccessControl()
+#10 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#11 C:\xampp\htdocs\MyBlog\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): TblMhsController->runActionWithFilters()
+#13 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): TblMhsController->run()
+#14 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\tugasyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/tugasyii/index.php?r=tblmhs/index
+in C:\xampp\htdocs\tugasyii\protected\views\tblMhs\index.php (50)
+in C:\xampp\htdocs\tugasyii\protected\controllers\TblMhsController.php (128)
+in C:\xampp\htdocs\tugasyii\index.php (13)
+2014/01/23 15:19:09 [error] [php] mysql_num_rows() expects parameter 1 to be resource, boolean given (C:\xampp\htdocs\tugasyii\protected\views\tblMhs\admin.php:67)
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CBaseController.php(95): TblMhsController->renderInternal()
+#1 C:\xampp\htdocs\MyBlog\framework\web\CController.php(869): TblMhsController->renderFile()
+#2 C:\xampp\htdocs\MyBlog\framework\web\CController.php(782): TblMhsController->renderPartial()
+#3 C:\xampp\htdocs\tugasyii\protected\controllers\TblMhsController.php(143): TblMhsController->render()
+#4 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): TblMhsController->actionAdmin()
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilterChain.php(133): TblMhsController->runAction()
+#7 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp\htdocs\MyBlog\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#9 C:\xampp\htdocs\MyBlog\framework\web\filters\CInlineFilter.php(58): TblMhsController->filterAccessControl()
+#10 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#11 C:\xampp\htdocs\MyBlog\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): TblMhsController->runActionWithFilters()
+#13 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): TblMhsController->run()
+#14 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\tugasyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/tugasyii/index.php?r=tblmhs/admin
+in C:\xampp\htdocs\tugasyii\protected\views\tblMhs\admin.php (67)
+in C:\xampp\htdocs\tugasyii\protected\controllers\TblMhsController.php (143)
+in C:\xampp\htdocs\tugasyii\index.php (13)
+2014/01/23 15:20:59 [error] [php] mysql_num_rows() expects parameter 1 to be resource, boolean given (C:\xampp\htdocs\tugasyii\protected\views\tblMhs\admin.php:67)
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CBaseController.php(95): TblMhsController->renderInternal()
+#1 C:\xampp\htdocs\MyBlog\framework\web\CController.php(869): TblMhsController->renderFile()
+#2 C:\xampp\htdocs\MyBlog\framework\web\CController.php(782): TblMhsController->renderPartial()
+#3 C:\xampp\htdocs\tugasyii\protected\controllers\TblMhsController.php(143): TblMhsController->render()
+#4 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): TblMhsController->actionAdmin()
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilterChain.php(133): TblMhsController->runAction()
+#7 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp\htdocs\MyBlog\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#9 C:\xampp\htdocs\MyBlog\framework\web\filters\CInlineFilter.php(58): TblMhsController->filterAccessControl()
+#10 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#11 C:\xampp\htdocs\MyBlog\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): TblMhsController->runActionWithFilters()
+#13 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): TblMhsController->run()
+#14 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\tugasyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/tugasyii/index.php?r=tblmhs/admin
+in C:\xampp\htdocs\tugasyii\protected\views\tblMhs\admin.php (67)
+in C:\xampp\htdocs\tugasyii\protected\controllers\TblMhsController.php (143)
+in C:\xampp\htdocs\tugasyii\index.php (13)
+2014/01/23 15:35:22 [error] [php] mysql_num_rows() expects parameter 1 to be resource, boolean given (C:\xampp\htdocs\tugasyii\protected\views\tblMhs\index.php:33)
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CBaseController.php(95): TblMhsController->renderInternal()
+#1 C:\xampp\htdocs\MyBlog\framework\web\CController.php(869): TblMhsController->renderFile()
+#2 C:\xampp\htdocs\MyBlog\framework\web\CController.php(782): TblMhsController->renderPartial()
+#3 C:\xampp\htdocs\tugasyii\protected\controllers\TblMhsController.php(128): TblMhsController->render()
+#4 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): TblMhsController->actionIndex()
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilterChain.php(133): TblMhsController->runAction()
+#7 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp\htdocs\MyBlog\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#9 C:\xampp\htdocs\MyBlog\framework\web\filters\CInlineFilter.php(58): TblMhsController->filterAccessControl()
+#10 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#11 C:\xampp\htdocs\MyBlog\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): TblMhsController->runActionWithFilters()
+#13 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): TblMhsController->run()
+#14 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\tugasyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/tugasyii/index.php?r=tblmhs/index
+in C:\xampp\htdocs\tugasyii\protected\views\tblMhs\index.php (33)
+in C:\xampp\htdocs\tugasyii\protected\controllers\TblMhsController.php (128)
+in C:\xampp\htdocs\tugasyii\index.php (13)
+2014/01/23 15:37:31 [error] [php] mysql_num_rows() expects parameter 1 to be resource, boolean given (C:\xampp\htdocs\tugasyii\protected\views\tblMhs\index.php:33)
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CBaseController.php(95): TblMhsController->renderInternal()
+#1 C:\xampp\htdocs\MyBlog\framework\web\CController.php(869): TblMhsController->renderFile()
+#2 C:\xampp\htdocs\MyBlog\framework\web\CController.php(782): TblMhsController->renderPartial()
+#3 C:\xampp\htdocs\tugasyii\protected\controllers\TblMhsController.php(128): TblMhsController->render()
+#4 C:\xampp\htdocs\MyBlog\framework\web\actions\CInlineAction.php(49): TblMhsController->actionIndex()
+#5 C:\xampp\htdocs\MyBlog\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilterChain.php(133): TblMhsController->runAction()
+#7 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp\htdocs\MyBlog\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#9 C:\xampp\htdocs\MyBlog\framework\web\filters\CInlineFilter.php(58): TblMhsController->filterAccessControl()
+#10 C:\xampp\htdocs\MyBlog\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#11 C:\xampp\htdocs\MyBlog\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp\htdocs\MyBlog\framework\web\CController.php(265): TblMhsController->runActionWithFilters()
+#13 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): TblMhsController->run()
+#14 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\tugasyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/tugasyii/index.php?r=tblmhs/index
+in C:\xampp\htdocs\tugasyii\protected\views\tblMhs\index.php (33)
+in C:\xampp\htdocs\tugasyii\protected\controllers\TblMhsController.php (128)
+in C:\xampp\htdocs\tugasyii\index.php (13)
+2014/01/24 06:33:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tentang".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('tentang')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('tentang')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('tampil/tentang')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\tugasyii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tugasyii/index.php?r=tampil/tentang&view=about
+HTTP_REFERER=http://localhost/tugasyii/index.php
+---
+2014/01/24 06:36:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tentang".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('tentang')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('tentang')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('tampil/tentang')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\tugasyii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tugasyii/index.php?r=tampil/tentang&view=about
+HTTP_REFERER=http://localhost/tugasyii/
+---
+2014/01/24 06:37:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tentang".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('tentang')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('tentang')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('tampil/tentang')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\tugasyii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tugasyii/index.php?r=tampil/tentang&view=about
+---
+2014/01/24 06:37:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tentang".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('tentang')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('tentang')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('tampil/tentang')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\tugasyii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tugasyii/index.php?r=tampil/tentang&view=about
+HTTP_REFERER=http://localhost/tugasyii/index.php?r=tampil/tentang&view=about
+---
+2014/01/24 06:41:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tentang".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('tentang')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('tentang')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('tampil/tentang')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\tugasyii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tugasyii/index.php?r=tampil/tentang&view=about
+HTTP_REFERER=http://localhost/tugasyii/index.php?r=tampil/tentang&view=about
+---
+2014/01/25 05:36:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "localhost/test1/open2.html".' in C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('localhost/test1...')
+#1 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\tugasyii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tugasyii/index.php?r=localhost/test1/open2.html
+HTTP_REFERER=http://localhost/tugasyii/index.php
+---
+2014/01/25 05:47:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "open2.html".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('open2.html')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('open2.html')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('tampil/open2.ht...')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\tugasyii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tugasyii/index.php?r=tampil/open2.html
+HTTP_REFERER=http://localhost/tugasyii/index.php
+---
+2014/01/25 05:48:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "open2.html".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('open2.html')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('open2.html')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('tampil/open2.ht...')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\tugasyii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tugasyii/index.php?r=tampil/open2.html
+HTTP_REFERER=http://localhost/tugasyii/index.php
+---
+2014/01/25 05:49:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "open2.html".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('open2.html')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('open2.html')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('tampil/open2.ht...')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\tugasyii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tugasyii/index.php?r=tampil/open2.html
+HTTP_REFERER=http://localhost/tugasyii/index.php
+---
+2014/01/25 05:49:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "views/open2.html".' in C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('views/open2.htm...')
+#1 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\tugasyii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tugasyii/index.php?r=views/open2.html
+HTTP_REFERER=http://localhost/tugasyii/index.php?r=tampil/open2.html
+---
+2014/01/25 05:50:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "open2.html".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('open2.html')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('open2.html')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('tampil/open2.ht...')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\tugasyii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tugasyii/index.php?r=tampil/open2.html
+HTTP_REFERER=http://localhost/tugasyii/index.php
+---
+2014/01/25 05:51:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "open2.html".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('open2.html')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('open2.html')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('tampil/open2.ht...')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\tugasyii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tugasyii/index.php?r=tampil/open2.html
+HTTP_REFERER=http://localhost/tugasyii/index.php
+---
+2014/01/25 05:52:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "open2".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('open2')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('open2')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('open/open2')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\tugasyii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tugasyii/index.php?r=open/open2
+HTTP_REFERER=http://localhost/tugasyii/index.php
+---
+2014/01/25 05:52:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "open2".' in C:\xampp\htdocs\MyBlog\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\MyBlog\framework\web\CController.php(270): CController->missingAction('open2')
+#1 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(282): CController->run('open2')
+#2 C:\xampp\htdocs\MyBlog\framework\web\CWebApplication.php(141): CWebApplication->runController('open/open2')
+#3 C:\xampp\htdocs\MyBlog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\tugasyii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tugasyii/index.php?r=open/open2
+HTTP_REFERER=http://localhost/tugasyii/index.php
+---

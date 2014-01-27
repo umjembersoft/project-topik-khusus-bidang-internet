@@ -1,0 +1,1234 @@
+2013/10/01 19:53:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/latihankuyii/index.php?r=gii
+---
+2013/10/01 19:57:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "yii".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('yii')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/latihankuyii/index.php?r=yii
+---
+2013/10/01 19:57:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/latihankuyii/index.php?r=gii
+---
+2013/10/01 19:58:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/latihankuyii/index.php?r=gii
+---
+2013/10/23 21:39:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/latihankuyii/index.php?r=gii
+---
+2013/10/31 01:13:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "Biodata" was not found.' in C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('Biodata')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/latihankuyii/index.php?r=site/page&view=Biodata
+HTTP_REFERER=http://localhost/latihankuyii/
+---
+2013/11/29 00:09:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "buku".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('buku')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('buku')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/buku/')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/latihankuyii/index.php?r=site/buku/
+---
+2013/11/29 00:10:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('view')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/view')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/latihankuyii/index.php?r=site/view
+---
+2013/11/29 00:27:12 [error] [exception.CDbException] exception 'CDbException' with message 'The table "buku" for active record class "Buku" cannot be found in the database.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(Buku))
+#1 C:\xampp\htdocs\latihankuyii\protected\models\Buku.php(5): CActiveRecord::model('Buku')
+#2 C:\xampp\htdocs\latihankuyii\protected\controllers\BukuController.php(20): Buku::model()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): BukuController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('buku')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/latihankuyii/index.php?r=buku
+---
+2013/11/29 00:35:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tugastkbdnginternet/".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tugastkbdnginte...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/latihankuyii/index.php?r=tugastkbdnginternet/
+---
+2013/11/29 00:36:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tugastkbdnginternet/LuckyAnugerahPratamaView".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tugastkbdnginte...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/latihankuyii/index.php?r=tugastkbdnginternet/LuckyAnugerahPratamaView
+---
+2013/11/29 00:36:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "LuckyAnugerahPratamaView".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('LuckyAnugerahPr...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/latihankuyii/index.php?r=LuckyAnugerahPratamaView
+---
+2013/11/29 00:43:01 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\latihankuyii\protected\views\site\index.php:15)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\latihankuyii\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\latihankuyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/latihankuyii/index.php?r=site/index
+in C:\xampp\htdocs\latihankuyii\protected\views\site\index.php (15)
+in C:\xampp\htdocs\latihankuyii\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\latihankuyii\index.php (13)
+2013/11/29 00:44:01 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\latihankuyii\protected\views\site\index.php:15)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\latihankuyii\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\latihankuyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/latihankuyii/index.php?r=site/index
+in C:\xampp\htdocs\latihankuyii\protected\views\site\index.php (15)
+in C:\xampp\htdocs\latihankuyii\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\latihankuyii\index.php (13)
+2013/11/29 00:45:59 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\latihankuyii\protected\views\site\index.php:15)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\latihankuyii\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\latihankuyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/latihankuyii/index.php?r=site
+in C:\xampp\htdocs\latihankuyii\protected\views\site\index.php (15)
+in C:\xampp\htdocs\latihankuyii\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\latihankuyii\index.php (13)
+2013/11/29 00:48:17 [error] [exception.CDbException] exception 'CDbException' with message 'The table "buku" for active record class "Buku" cannot be found in the database.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(Buku))
+#1 C:\xampp\htdocs\latihankuyii\protected\models\Buku.php(5): CActiveRecord::model('Buku')
+#2 C:\xampp\htdocs\latihankuyii\protected\controllers\BukuController.php(20): Buku::model()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): BukuController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('buku')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/latihankuyii/index.php?r=buku
+---
+2013/11/29 00:48:26 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\latihankuyii\protected\views\site\index.php:15)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\latihankuyii\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\latihankuyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/latihankuyii/index.php?r=site
+in C:\xampp\htdocs\latihankuyii\protected\views\site\index.php (15)
+in C:\xampp\htdocs\latihankuyii\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\latihankuyii\index.php (13)
+2013/11/29 00:49:48 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\latihankuyii\protected\views\site\index.php:15)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\latihankuyii\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\latihankuyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/latihankuyii/index.php?r=site
+in C:\xampp\htdocs\latihankuyii\protected\views\site\index.php (15)
+in C:\xampp\htdocs\latihankuyii\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\latihankuyii\index.php (13)
+2013/11/29 00:53:11 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\latihankuyii\protected\views\site\index.php:15)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\latihankuyii\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\latihankuyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/latihankuyii/index.php?r=site
+in C:\xampp\htdocs\latihankuyii\protected\views\site\index.php (15)
+in C:\xampp\htdocs\latihankuyii\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\latihankuyii\index.php (13)
+2013/11/29 00:54:34 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\latihankuyii\protected\views\site\index.php:15)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\latihankuyii\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\latihankuyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/latihankuyii/index.php?r=site
+in C:\xampp\htdocs\latihankuyii\protected\views\site\index.php (15)
+in C:\xampp\htdocs\latihankuyii\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\latihankuyii\index.php (13)
+2013/12/23 20:58:05 [error] [php] include(Controllers.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\xampp\htdocs\latihankuyii\protected\controllers\FormController.php(2): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(354): require()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\latihankuyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/latihankuyii/index.php?r=form
+in C:\xampp\htdocs\latihankuyii\protected\controllers\FormController.php (2)
+in C:\xampp\htdocs\latihankuyii\index.php (13)
+2013/12/23 21:02:38 [error] [php] include(Controllers.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\xampp\htdocs\latihankuyii\protected\controllers\FormController.php(2): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(354): require()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\latihankuyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/latihankuyii/index.php?r=Form
+in C:\xampp\htdocs\latihankuyii\protected\controllers\FormController.php (2)
+in C:\xampp\htdocs\latihankuyii\index.php (13)
+2013/12/23 21:03:03 [error] [php] include(Controllers.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\xampp\htdocs\latihankuyii\protected\controllers\FormController.php(2): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(354): require()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\latihankuyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/latihankuyii/index.php?r=Form/index.php
+in C:\xampp\htdocs\latihankuyii\protected\controllers\FormController.php (2)
+in C:\xampp\htdocs\latihankuyii\index.php (13)
+2013/12/23 21:05:39 [error] [php] include(Controllers.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\xampp\htdocs\latihankuyii\protected\controllers\FormController.php(2): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(354): require()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\latihankuyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/latihankuyii/index.php?r=Form/index.php
+in C:\xampp\htdocs\latihankuyii\protected\controllers\FormController.php (2)
+in C:\xampp\htdocs\latihankuyii\index.php (13)
+2013/12/23 21:05:44 [error] [php] include(Controllers.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\xampp\htdocs\latihankuyii\protected\controllers\FormController.php(2): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(354): require()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\latihankuyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/latihankuyii/index.php?r=Form
+in C:\xampp\htdocs\latihankuyii\protected\controllers\FormController.php (2)
+in C:\xampp\htdocs\latihankuyii\index.php (13)
+2013/12/23 21:06:53 [error] [php] include(Controllers.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\xampp\htdocs\latihankuyii\protected\controllers\FormController.php(2): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(354): require()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\latihankuyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/latihankuyii/index.php?r=form
+in C:\xampp\htdocs\latihankuyii\protected\controllers\FormController.php (2)
+in C:\xampp\htdocs\latihankuyii\index.php (13)
+2013/12/23 21:07:13 [error] [php] include(Controllers.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\xampp\htdocs\latihankuyii\protected\controllers\FormController.php(2): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(354): require()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\latihankuyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/latihankuyii/index.php?r=form
+in C:\xampp\htdocs\latihankuyii\protected\controllers\FormController.php (2)
+in C:\xampp\htdocs\latihankuyii\index.php (13)
+2013/12/23 21:12:04 [error] [php] include(Controllers.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\xampp\htdocs\latihankuyii\protected\controllers\FormController.php(2): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(354): require()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\latihankuyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/latihankuyii/index.php?r=form
+in C:\xampp\htdocs\latihankuyii\protected\controllers\FormController.php (2)
+in C:\xampp\htdocs\latihankuyii\index.php (13)
+2013/12/23 21:14:18 [error] [php] include(Controllers.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\xampp\htdocs\latihankuyii\protected\controllers\FormController.php(2): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(354): require()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\latihankuyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/latihankuyii/index.php?r=form
+in C:\xampp\htdocs\latihankuyii\protected\controllers\FormController.php (2)
+in C:\xampp\htdocs\latihankuyii\index.php (13)
+2013/12/23 21:17:22 [error] [php] include(Controllers.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\xampp\htdocs\latihankuyii\protected\controllers\FormController.php(2): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(354): require()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\latihankuyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/latihankuyii/index.php?r=form
+in C:\xampp\htdocs\latihankuyii\protected\controllers\FormController.php (2)
+in C:\xampp\htdocs\latihankuyii\index.php (13)
+2013/12/23 21:22:02 [error] [php] include(Controllers.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\xampp\htdocs\latihankuyii\protected\controllers\FormController.php(2): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(354): require()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\latihankuyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/latihankuyii/index.php?r=form
+in C:\xampp\htdocs\latihankuyii\protected\controllers\FormController.php (2)
+in C:\xampp\htdocs\latihankuyii\index.php (13)
+2013/12/23 21:28:37 [error] [php] include(Controllers.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\xampp\htdocs\latihankuyii\protected\controllers\FormController.php(2): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(354): require()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\latihankuyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/latihankuyii/index.php?r=form
+in C:\xampp\htdocs\latihankuyii\protected\controllers\FormController.php (2)
+in C:\xampp\htdocs\latihankuyii\index.php (13)
+2013/12/23 21:30:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tugastkbdnginternet/".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tugastkbdnginte...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/latihankuyii/index.php?r=tugastkbdnginternet/
+---
+2013/12/23 21:33:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tugastkbdnginternet/".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tugastkbdnginte...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/latihankuyii/index.php?r=tugastkbdnginternet/
+---
+2013/12/23 21:34:29 [error] [php] include(Controllers.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\xampp\htdocs\latihankuyii\protected\controllers\FormController.php(2): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(354): require()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\latihankuyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/latihankuyii/index.php?r=form
+in C:\xampp\htdocs\latihankuyii\protected\controllers\FormController.php (2)
+in C:\xampp\htdocs\latihankuyii\index.php (13)
+2013/12/23 21:35:33 [error] [php] include(Controllers.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\xampp\htdocs\latihankuyii\protected\controllers\FormController.php(2): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(354): require()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\latihankuyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/latihankuyii/index.php?r=Form
+in C:\xampp\htdocs\latihankuyii\protected\controllers\FormController.php (2)
+in C:\xampp\htdocs\latihankuyii\index.php (13)
+2013/12/23 21:37:59 [error] [php] include(Controllers.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\xampp\htdocs\latihankuyii\protected\controllers\FormController.php(2): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(354): require()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\latihankuyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/latihankuyii/index.php?r=Form
+in C:\xampp\htdocs\latihankuyii\protected\controllers\FormController.php (2)
+in C:\xampp\htdocs\latihankuyii\index.php (13)
+2013/12/23 21:45:57 [error] [php] include(Controllers.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\xampp\htdocs\latihankuyii\protected\controllers\FormController.php(2): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(354): require()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\latihankuyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/latihankuyii/index.php?r=Form
+in C:\xampp\htdocs\latihankuyii\protected\controllers\FormController.php (2)
+in C:\xampp\htdocs\latihankuyii\index.php (13)
+2013/12/23 21:47:59 [error] [exception.CDbException] exception 'CDbException' with message 'The table "buku" for active record class "Buku" cannot be found in the database.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(Buku))
+#1 C:\xampp\htdocs\latihankuyii\protected\models\Buku.php(5): CActiveRecord::model('Buku')
+#2 C:\xampp\htdocs\latihankuyii\protected\controllers\BukuController.php(20): Buku::model()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): BukuController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('buku')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/latihankuyii/index.php?r=buku
+---
+2013/12/23 22:00:39 [error] [php] Missing argument 2 for CHtml::label(), called in C:\xampp\htdocs\latihankuyii\protected\views\form\index.php on line 3 and defined (C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php:546)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): FormController->renderInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(869): FormController->renderFile()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(782): FormController->renderPartial()
+#3 C:\xampp\htdocs\latihankuyii\protected\controllers\FormController.php(8): FormController->render()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): FormController->actionIndex()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(286): FormController->runAction()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): FormController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): FormController->run()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\latihankuyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/latihankuyii/index.php?r=form
+in C:\xampp\htdocs\latihankuyii\protected\views\form\index.php (3)
+in C:\xampp\htdocs\latihankuyii\protected\controllers\FormController.php (8)
+in C:\xampp\htdocs\latihankuyii\index.php (13)
+2014/01/02 22:10:14 [error] [php] mail() [<a href='function.mail'>function.mail</a>]: Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() (C:\xampp\htdocs\latihankuyii\protected\controllers\SiteController.php:67)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#4 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\latihankuyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/latihankuyii/index.php?r=site/contact
+in C:\xampp\htdocs\latihankuyii\protected\controllers\SiteController.php (67)
+in C:\xampp\htdocs\latihankuyii\index.php (13)
+2014/01/02 22:45:00 [error] [exception.CDbException] exception 'CDbException' with message 'The table "tbl_mhs" for active record class "TblMhs" cannot be found in the database.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(TblMhs))
+#1 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(74): CActiveRecord::model('TblMhs')
+#2 C:\xampp\htdocs\latihankuyii\protected\controllers\TblMhsController.php(125): CActiveDataProvider->__construct('TblMhs')
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TblMhsController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tblmhs')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/latihankuyii/index.php?r=tblmhs
+HTTP_REFERER=http://localhost/latihankuyii/index.php
+---
+2014/01/02 22:45:30 [error] [exception.CDbException] exception 'CDbException' with message 'The table "tbl_mkuliah" for active record class "TblMkuliah" cannot be found in the database.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(TblMkuliah))
+#1 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(74): CActiveRecord::model('TblMkuliah')
+#2 C:\xampp\htdocs\latihankuyii\protected\controllers\TblMkuliahController.php(125): CActiveDataProvider->__construct('TblMkuliah')
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TblMkuliahController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tblmkuliah')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/latihankuyii/index.php?r=tblmkuliah
+HTTP_REFERER=http://localhost/latihankuyii/index.php
+---
+2014/01/02 22:47:41 [error] [exception.CDbException] exception 'CDbException' with message 'The table "tbl_mhs" for active record class "TblMhs" cannot be found in the database.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(TblMhs))
+#1 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(74): CActiveRecord::model('TblMhs')
+#2 C:\xampp\htdocs\latihankuyii\protected\controllers\TblMhsController.php(125): CActiveDataProvider->__construct('TblMhs')
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TblMhsController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tblmhs')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/latihankuyii/index.php?r=tblmhs
+HTTP_REFERER=http://localhost/latihankuyii/index.php
+---
+2014/01/02 22:52:56 [error] [exception.CDbException] exception 'CDbException' with message 'The table "tbl_mkuliah" for active record class "TblMkuliah" cannot be found in the database.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(TblMkuliah))
+#1 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(74): CActiveRecord::model('TblMkuliah')
+#2 C:\xampp\htdocs\latihankuyii\protected\controllers\TblMkuliahController.php(125): CActiveDataProvider->__construct('TblMkuliah')
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TblMkuliahController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tblmkuliah')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/latihankuyii/index.php?r=tblmkuliah
+HTTP_REFERER=http://localhost/latihankuyii/index.php
+---
+2014/01/02 23:00:40 [error] [exception.CDbException] exception 'CDbException' with message 'The table "tbl_mhs" for active record class "TblMhs" cannot be found in the database.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(TblMhs))
+#1 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(74): CActiveRecord::model('TblMhs')
+#2 C:\xampp\htdocs\latihankuyii\protected\controllers\TblMhsController.php(125): CActiveDataProvider->__construct('TblMhs')
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TblMhsController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tblmhs')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/latihankuyii/index.php?r=tblmhs
+HTTP_REFERER=http://localhost/latihankuyii/index.php
+---
+2014/01/02 23:06:43 [error] [exception.CDbException] exception 'CDbException' with message 'The table "tbl_mhs" for active record class "TblMhs" cannot be found in the database.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(TblMhs))
+#1 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(74): CActiveRecord::model('TblMhs')
+#2 C:\xampp\htdocs\latihankuyii\protected\controllers\TblMhsController.php(125): CActiveDataProvider->__construct('TblMhs')
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TblMhsController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tblmhs')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/latihankuyii/index.php?r=tblmhs
+HTTP_REFERER=http://localhost/latihankuyii/index.php
+---
+2014/01/02 23:31:45 [error] [exception.CDbException] exception 'CDbException' with message 'The table "buku" for active record class "Buku" cannot be found in the database.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(Buku))
+#1 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(74): CActiveRecord::model('buku')
+#2 C:\xampp\htdocs\latihankuyii\protected\controllers\bukuController.php(125): CActiveDataProvider->__construct('buku')
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): bukuController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('buku')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/latihankuyii/index.php?r=buku
+HTTP_REFERER=http://localhost/latihankuyii/index.php
+---
+2014/01/02 23:32:25 [error] [exception.CDbException] exception 'CDbException' with message 'The table "buku" for active record class "Buku" cannot be found in the database.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(Buku))
+#1 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(74): CActiveRecord::model('buku')
+#2 C:\xampp\htdocs\latihankuyii\protected\controllers\bukuController.php(125): CActiveDataProvider->__construct('buku')
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): bukuController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('buku')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/latihankuyii/index.php?r=buku
+HTTP_REFERER=http://localhost/latihankuyii/index.php
+---
+2014/01/06 22:49:50 [error] [exception.CDbException] exception 'CDbException' with message 'The table "buku" for active record class "Buku" cannot be found in the database.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(Buku))
+#1 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(74): CActiveRecord::model('buku')
+#2 C:\xampp\htdocs\latihankuyii\protected\controllers\BukuController.php(120): CActiveDataProvider->__construct('buku')
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): BukuController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('buku')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/latihankuyii/index.php?r=buku
+HTTP_REFERER=http://localhost/latihankuyii/index.php?r=site/index
+---
+2014/01/06 22:50:39 [error] [exception.CDbException] exception 'CDbException' with message 'The table "buku" for active record class "Buku" cannot be found in the database.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(Buku))
+#1 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(74): CActiveRecord::model('buku')
+#2 C:\xampp\htdocs\latihankuyii\protected\controllers\BukuController.php(120): CActiveDataProvider->__construct('buku')
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): BukuController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Buku')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/latihankuyii/index.php?r=Buku
+HTTP_REFERER=http://localhost/latihankuyii/index.php
+---
+2014/01/06 22:51:50 [error] [exception.CDbException] exception 'CDbException' with message 'The table "buku" for active record class "Buku" cannot be found in the database.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(Buku))
+#1 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(74): CActiveRecord::model('buku')
+#2 C:\xampp\htdocs\latihankuyii\protected\controllers\BukuController.php(120): CActiveDataProvider->__construct('buku')
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): BukuController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('buku')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/latihankuyii/index.php?r=buku
+HTTP_REFERER=http://localhost/latihankuyii/index.php?r=site/index
+---
+2014/01/06 22:53:04 [error] [exception.CDbException] exception 'CDbException' with message 'The table "buku" for active record class "buku" cannot be found in the database.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(buku))
+#1 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(74): CActiveRecord::model('buku')
+#2 C:\xampp\htdocs\latihankuyii\protected\controllers\BukuController.php(120): CActiveDataProvider->__construct('buku')
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): BukuController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('buku')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/latihankuyii/index.php?r=buku
+HTTP_REFERER=http://localhost/latihankuyii/index.php?r=site/index
+---
+2014/01/06 23:00:28 [error] [exception.CDbException] exception 'CDbException' with message 'The table "buku" for active record class "Buku" cannot be found in the database.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(Buku))
+#1 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(74): CActiveRecord::model('buku')
+#2 C:\xampp\htdocs\latihankuyii\protected\controllers\BukuController.php(120): CActiveDataProvider->__construct('buku')
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): BukuController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('buku')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/latihankuyii/index.php?r=buku
+HTTP_REFERER=http://localhost/latihankuyii/index.php?r=site/index
+---
+2014/01/06 23:03:36 [error] [exception.CDbException] exception 'CDbException' with message 'The table "buku" for active record class "Buku" cannot be found in the database.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(Buku))
+#1 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(74): CActiveRecord::model('Buku')
+#2 C:\xampp\htdocs\latihankuyii\protected\controllers\BukuController.php(100): CActiveDataProvider->__construct('Buku')
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): BukuController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('buku')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/latihankuyii/index.php?r=buku
+HTTP_REFERER=http://localhost/latihankuyii/index.php?r=site/index
+---
+2014/01/06 23:04:29 [error] [exception.CDbException] exception 'CDbException' with message 'The table "buku" for active record class "Buku" cannot be found in the database.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(Buku))
+#1 C:\xampp\htdocs\latihankuyii\protected\models\Buku.php(8): CActiveRecord::model('Buku')
+#2 C:\xampp\htdocs\latihankuyii\protected\controllers\BukuController.php(101): Buku::model()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): BukuController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('buku')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/latihankuyii/index.php?r=buku
+HTTP_REFERER=http://localhost/latihankuyii/index.php?r=site/index
+---
+2014/01/07 01:36:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "buku".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('buku')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('buku')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('buku/buku')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/latihankuyii/index.php?r=buku/buku
+HTTP_REFERER=http://localhost/latihankuyii/index.php?r=buku/view&id=B001
+---
+2014/01/07 01:36:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "buku".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('buku')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('buku')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('buku/buku')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/latihankuyii/index.php?r=buku/buku
+HTTP_REFERER=http://localhost/latihankuyii/index.php?r=buku/view&id=B001
+---
+2014/01/08 19:10:41 [error] [exception.CException] exception 'CException' with message 'Property "Penerbit.NOTLPPPENERBIT" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('NOTLPPPENERBIT')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2255): CActiveRecord->__get('NOTLPPPENERBIT')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(Penerbit), 'NOTLPPPENERBIT')
+#3 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1257): CHtml::activeInputField('text', Object(Penerbit), 'NOTLPPPENERBIT', Array)
+#4 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(657): CHtml::activeTextField(Object(Penerbit), 'NOTLPPPENERBIT', Array)
+#5 C:\xampp\htdocs\latihankuyii\protected\views\penerbit\_search.php(46): CActiveForm->textField(Object(Penerbit), 'NOTLPPPENERBIT', Array)
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\latihankuyii\protected\views\penerbit\admin.php(41): CController->renderPartial('_search', Array)
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#14 C:\xampp\htdocs\latihankuyii\protected\controllers\PenerbitController.php(100): CController->render('admin', Array)
+#15 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PenerbitController->actionAdmin()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#25 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('penerbit/admin')
+#26 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/latihankuyii/index.php?r=penerbit/admin
+HTTP_REFERER=http://localhost/latihankuyii/index.php?r=penerbit
+---
+2014/01/08 19:10:55 [error] [exception.CException] exception 'CException' with message 'Property "Penerbit.NOTLPPPENERBIT" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('NOTLPPPENERBIT')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2255): CActiveRecord->__get('NOTLPPPENERBIT')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(Penerbit), 'NOTLPPPENERBIT')
+#3 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1257): CHtml::activeInputField('text', Object(Penerbit), 'NOTLPPPENERBIT', Array)
+#4 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(657): CHtml::activeTextField(Object(Penerbit), 'NOTLPPPENERBIT', Array)
+#5 C:\xampp\htdocs\latihankuyii\protected\views\penerbit\_search.php(46): CActiveForm->textField(Object(Penerbit), 'NOTLPPPENERBIT', Array)
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\latihankuyii\protected\views\penerbit\admin.php(41): CController->renderPartial('_search', Array)
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#14 C:\xampp\htdocs\latihankuyii\protected\controllers\PenerbitController.php(100): CController->render('admin', Array)
+#15 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PenerbitController->actionAdmin()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#25 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('penerbit/admin')
+#26 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/latihankuyii/index.php?r=penerbit/admin
+HTTP_REFERER=http://localhost/latihankuyii/index.php?r=penerbit
+---
+2014/01/08 19:13:02 [error] [exception.CException] exception 'CException' with message 'Property "Penerbit.NOTLPPPENERBIT" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('NOTLPPPENERBIT')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2255): CActiveRecord->__get('NOTLPPPENERBIT')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(Penerbit), 'NOTLPPPENERBIT')
+#3 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1257): CHtml::activeInputField('text', Object(Penerbit), 'NOTLPPPENERBIT', Array)
+#4 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(657): CHtml::activeTextField(Object(Penerbit), 'NOTLPPPENERBIT', Array)
+#5 C:\xampp\htdocs\latihankuyii\protected\views\penerbit\_form.php(54): CActiveForm->textField(Object(Penerbit), 'NOTLPPPENERBIT', Array)
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\latihankuyii\protected\views\penerbit\create.php(21): CController->renderPartial('_form', Array)
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#14 C:\xampp\htdocs\latihankuyii\protected\controllers\PenerbitController.php(58): CController->render('create', Array)
+#15 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PenerbitController->actionCreate()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#25 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('penerbit/create')
+#26 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/latihankuyii/index.php?r=penerbit/create
+HTTP_REFERER=http://localhost/latihankuyii/index.php?r=penerbit/admin
+---
+2014/01/08 19:14:01 [error] [exception.CException] exception 'CException' with message 'Property "Penerbit.NOTLPPPENERBIT" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('NOTLPPPENERBIT')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2255): CActiveRecord->__get('NOTLPPPENERBIT')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(Penerbit), 'NOTLPPPENERBIT')
+#3 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1257): CHtml::activeInputField('text', Object(Penerbit), 'NOTLPPPENERBIT', Array)
+#4 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(657): CHtml::activeTextField(Object(Penerbit), 'NOTLPPPENERBIT', Array)
+#5 C:\xampp\htdocs\latihankuyii\protected\views\penerbit\_form.php(54): CActiveForm->textField(Object(Penerbit), 'NOTLPPPENERBIT', Array)
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\latihankuyii\protected\views\penerbit\create.php(21): CController->renderPartial('_form', Array)
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#14 C:\xampp\htdocs\latihankuyii\protected\controllers\PenerbitController.php(58): CController->render('create', Array)
+#15 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PenerbitController->actionCreate()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#25 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('penerbit/create')
+#26 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/latihankuyii/index.php?r=penerbit/create
+HTTP_REFERER=http://localhost/latihankuyii/index.php?r=penerbit/admin
+---
+2014/01/08 19:18:38 [error] [exception.CException] exception 'CException' with message 'Property "Penerbit.ALMTPENERBIT" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('ALMTPENERBIT')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2255): CActiveRecord->__get('ALMTPENERBIT')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(Penerbit), 'ALMTPENERBIT')
+#3 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1257): CHtml::activeInputField('text', Object(Penerbit), 'ALMTPENERBIT', Array)
+#4 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(657): CHtml::activeTextField(Object(Penerbit), 'ALMTPENERBIT', Array)
+#5 C:\xampp\htdocs\latihankuyii\protected\views\penerbit\_form.php(41): CActiveForm->textField(Object(Penerbit), 'ALMTPENERBIT', Array)
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\latihankuyii\protected\views\penerbit\create.php(21): CController->renderPartial('_form', Array)
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#14 C:\xampp\htdocs\latihankuyii\protected\controllers\PenerbitController.php(58): CController->render('create', Array)
+#15 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PenerbitController->actionCreate()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#25 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('penerbit/create')
+#26 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/latihankuyii/index.php?r=penerbit/create
+---
+2014/01/08 20:26:22 [error] [exception.CException] exception 'CException' with message 'Property "Penerbit.IDBUKU" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('IDBUKU')
+#1 C:\xampp\htdocs\latihankuyii\protected\views\penerbit\view.php(5): CActiveRecord->__get('IDBUKU')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#6 C:\xampp\htdocs\latihankuyii\protected\controllers\PenerbitController.php(40): CController->render('view', Array)
+#7 [internal function]: PenerbitController->actionView('P001')
+#8 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(PenerbitController), Array)
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PenerbitController), Object(ReflectionMethod), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('penerbit/view')
+#20 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/latihankuyii/index.php?r=penerbit/view&id=P001
+HTTP_REFERER=http://localhost/latihankuyii/index.php?r=penerbit
+---
+2014/01/08 20:27:12 [error] [exception.CException] exception 'CException' with message 'Property "Penerbit.IDBUKU" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('IDBUKU')
+#1 C:\xampp\htdocs\latihankuyii\protected\views\penerbit\view.php(5): CActiveRecord->__get('IDBUKU')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#6 C:\xampp\htdocs\latihankuyii\protected\controllers\PenerbitController.php(40): CController->render('view', Array)
+#7 [internal function]: PenerbitController->actionView('P001')
+#8 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(PenerbitController), Array)
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PenerbitController), Object(ReflectionMethod), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('penerbit/view')
+#20 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/latihankuyii/index.php?r=penerbit/view&id=P001
+HTTP_REFERER=http://localhost/latihankuyii/index.php?r=penerbit
+---
+2014/01/25 20:13:58 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2003] Can't connect to MySQL server on 'localhost' (10061)' in C:\xampp\htdocs\yii\framework\db\CDbConnection.php:381
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(438): CModule->getComponent('db')
+#4 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(623): CApplication->getDb()
+#5 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(Buku))
+#7 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(74): CActiveRecord::model('Buku')
+#8 C:\xampp\htdocs\latihankuyii\protected\controllers\BukuController.php(85): CActiveDataProvider->__construct('Buku')
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): BukuController->actionIndex()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('buku')
+#20 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/latihankuyii/index.php?r=buku
+HTTP_REFERER=http://localhost/latihankuyii/index.php?r=site/index
+---
+2014/01/25 21:46:21 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('buku/view')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/latihankuyii/index.php?r=buku/view
+---
+2014/01/25 21:53:11 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('buku/update')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/latihankuyii/index.php?r=buku/update
+HTTP_REFERER=http://localhost/latihankuyii/index.php?r=site/login
+---
+2014/01/25 21:53:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "manage".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('manage')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('manage')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('buku/manage')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/latihankuyii/index.php?r=buku/manage
+---
+2014/01/25 21:57:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/latihankuyii/index.php?r=site/admin
+HTTP_REFERER=http://localhost/latihankuyii/index.php
+---
+2014/01/25 22:04:45 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('buku/view')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/latihankuyii/index.php?r=buku/view
+---
+2014/01/25 22:04:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('view')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/view')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/latihankuyii/index.php?r=site/view
+---
+2014/01/26 00:47:00 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'B002' for key 'PRIMARY'. The SQL statement executed was: UPDATE `buku` SET `IDBUKU`=:yp0, `JUDULBUKU`=:yp1, `JENISBUKU`=:yp2, `GENRE`=:yp3, `TAHUNTERBIT`=:yp4 WHERE `buku`.`IDBUKU`='B001'.
+in C:\xampp\htdocs\latihankuyii\protected\controllers\BukuController.php (65)
+in C:\xampp\htdocs\latihankuyii\index.php (13)
+2014/01/26 00:47:00 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'B002' for key 'PRIMARY'. The SQL statement executed was: UPDATE `buku` SET `IDBUKU`=:yp0, `JUDULBUKU`=:yp1, `JENISBUKU`=:yp2, `GENRE`=:yp3, `TAHUNTERBIT`=:yp4 WHERE `buku`.`IDBUKU`='B001'' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1691): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1070): CActiveRecord->updateByPk('B001', Array)
+#2 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(795): CActiveRecord->update(NULL)
+#3 C:\xampp\htdocs\latihankuyii\protected\controllers\BukuController.php(65): CActiveRecord->save()
+#4 [internal function]: BukuController->actionUpdate('B001')
+#5 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(BukuController), Array)
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BukuController), Object(ReflectionMethod), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('buku/update')
+#17 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/latihankuyii/index.php?r=buku/update&id=B001
+HTTP_REFERER=http://localhost/latihankuyii/index.php?r=buku/update&id=B001
+---
+2014/01/26 01:52:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "BUKU".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('BUKU')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('BUKU')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/BUKU')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/latihankuyii/index.php?r=site/BUKU
+---
+2014/01/26 01:52:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "buku".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('buku')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('buku')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/buku/')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/latihankuyii/index.php?r=site/buku/
+---
+2014/01/26 01:52:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "buku".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('buku')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('buku')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/buku')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\latihankuyii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/latihankuyii/index.php?r=site/buku
+---

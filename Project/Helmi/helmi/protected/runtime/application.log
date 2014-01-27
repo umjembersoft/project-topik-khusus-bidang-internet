@@ -1,0 +1,1107 @@
+2013/12/24 04:08:00 [error] [exception.CDbException] exception 'CDbException' with message 'The table "tabelmhs" for active record class "Tugas" cannot be found in the database.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Tugas))
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1350): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#4 C:\xampp\htdocs\helmi\protected\controllers\TugasController.php(26): CActiveRecord->findAll()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TugasController->actionIndex()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tugas')
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/helmi/index.php?r=tugas
+---
+2013/12/24 04:11:09 [error] [exception.CDbException] exception 'CDbException' with message 'The table "mahasiswa" for active record class "Tugas" cannot be found in the database.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Tugas))
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1350): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#4 C:\xampp\htdocs\helmi\protected\controllers\TugasController.php(26): CActiveRecord->findAll()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TugasController->actionIndex()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tugas')
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/helmi/index.php?r=tugas
+---
+2013/12/24 04:15:59 [error] [exception.CDbException] exception 'CDbException' with message 'The table "mahasiswa" for active record class "Tugas" cannot be found in the database.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Tugas))
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1350): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#4 C:\xampp\htdocs\helmi\protected\controllers\TugasController.php(26): CActiveRecord->findAll()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TugasController->actionIndex()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tugas')
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/helmi/index.php?r=tugas
+---
+2013/12/24 04:22:12 [error] [exception.CDbException] exception 'CDbException' with message 'The table "mahasiswa" for active record class "Tugas" cannot be found in the database.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Tugas))
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1350): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#4 C:\xampp\htdocs\helmi\protected\controllers\TugasController.php(26): CActiveRecord->findAll()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TugasController->actionIndex()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tugas')
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/helmi/index.php?r=tugas
+---
+2013/12/24 07:03:09 [error] [exception.CException] exception 'CException' with message 'Kuis and its behaviors do not have a method or closure named "max".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(227): CComponent->__call('max', Array)
+#1 C:\xampp\htdocs\helmi\protected\controllers\KuisController.php(10): CActiveRecord->__call('max', Array)
+#2 C:\xampp\htdocs\helmi\protected\controllers\KuisController.php(10): Kuis->max('penghasilan')
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): KuisController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('kuis')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/helmi/index.php?r=kuis
+---
+2013/12/24 09:55:28 [error] [php] include(Category.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\helmi\protected\controllers\KuisController.php(12): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): KuisController->actionIndex()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): KuisController->runAction()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): KuisController->runActionWithFilters()
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): KuisController->run()
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\helmi\index.php(13): CWebApplication->run()
+REQUEST_URI=/helmi/index.php?r=kuis
+in C:\xampp\htdocs\helmi\protected\controllers\KuisController.php (12)
+in C:\xampp\htdocs\helmi\index.php (13)
+2013/12/28 03:32:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('krs')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/helmi/index.php?r=krs
+---
+2013/12/28 03:37:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('krs')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/helmi/index.php?r=krs
+---
+2013/12/28 03:41:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "krs".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('krs')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/helmi/index.php?r=krs
+---
+2013/12/28 03:42:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "krs".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('krs')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/helmi/index.php?r=krs
+---
+2013/12/28 03:58:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bukutamu".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('bukutamu')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/helmi/index.php?r=bukutamu
+---
+2013/12/28 04:01:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bukutamu".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('bukutamu')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/helmi/index.php?r=bukutamu
+---
+2013/12/28 04:06:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bukutamu".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('bukutamu')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/helmi/index.php?r=bukutamu
+---
+2013/12/28 04:12:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bukutamu".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('bukutamu')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/helmi/index.php?r=bukutamu
+---
+2013/12/28 04:13:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bukutamu".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('bukutamu')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/helmi/index.php?r=bukutamu
+---
+2013/12/28 04:14:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bukutamu".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('bukutamu')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/helmi/index.php?r=bukutamu
+---
+2013/12/28 04:15:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bukutamu".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('bukutamu')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/helmi/index.php?r=bukutamu
+---
+2013/12/28 04:18:16 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tugas.mahasiswa' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `mahasiswa`.
+in C:\xampp\htdocs\helmi\protected\controllers\TugasController.php (26)
+in C:\xampp\htdocs\helmi\index.php (13)
+2013/12/28 04:18:16 [error] [exception.CDbException] exception 'CDbException' with message 'The table "mahasiswa" for active record class "Tugas" cannot be found in the database.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Tugas))
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1350): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#4 C:\xampp\htdocs\helmi\protected\controllers\TugasController.php(26): CActiveRecord->findAll()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TugasController->actionIndex()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tugas')
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/helmi/index.php?r=tugas
+---
+2013/12/28 04:30:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "insert".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('insert')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('insert')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tugas/insert')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/helmi/index.php?r=tugas/insert&nim=1100631026
+HTTP_REFERER=http://localhost/helmi/index.php?r=tugas
+---
+2013/12/28 04:35:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "update".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('update')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tugas/update')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/helmi/index.php?r=tugas/update&nim=1100631026
+HTTP_REFERER=http://localhost/helmi/index.php?r=tugas
+---
+2014/01/03 13:09:21 [error] [php] Undefined variable: select (C:\xampp\htdocs\helmi\protected\views\form\index.php:14)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): FormController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): FormController->renderPartial()
+#2 C:\xampp\htdocs\helmi\protected\controllers\FormController.php(6): FormController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): FormController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): FormController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): FormController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): FormController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\helmi\index.php(13): CWebApplication->run()
+REQUEST_URI=/helmi/index.php?r=form
+in C:\xampp\htdocs\helmi\protected\views\form\index.php (14)
+in C:\xampp\htdocs\helmi\protected\controllers\FormController.php (6)
+in C:\xampp\htdocs\helmi\index.php (13)
+2014/01/03 13:11:42 [error] [php] Undefined variable: select (C:\xampp\htdocs\helmi\protected\views\form\index.php:14)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): FormController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): FormController->renderPartial()
+#2 C:\xampp\htdocs\helmi\protected\controllers\FormController.php(6): FormController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): FormController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): FormController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): FormController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): FormController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\helmi\index.php(13): CWebApplication->run()
+REQUEST_URI=/helmi/index.php?r=form
+in C:\xampp\htdocs\helmi\protected\views\form\index.php (14)
+in C:\xampp\htdocs\helmi\protected\controllers\FormController.php (6)
+in C:\xampp\htdocs\helmi\index.php (13)
+2014/01/03 14:45:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('toko')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/helmi/index.php?r=toko
+---
+2014/01/03 14:47:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('toko')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/helmi/index.php?r=toko
+---
+2014/01/03 14:56:30 [error] [php] Undefined variable: select (C:\xampp\htdocs\helmi\protected\views\toko\create.php:16)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): TokoController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): TokoController->renderPartial()
+#2 C:\xampp\htdocs\helmi\protected\controllers\TokoController.php(19): TokoController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TokoController->actionCreate()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): TokoController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): TokoController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): TokoController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\helmi\index.php(13): CWebApplication->run()
+REQUEST_URI=/helmi/index.php?r=toko/create
+in C:\xampp\htdocs\helmi\protected\views\toko\create.php (16)
+in C:\xampp\htdocs\helmi\protected\controllers\TokoController.php (19)
+in C:\xampp\htdocs\helmi\index.php (13)
+2014/01/03 14:57:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('toko')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/helmi/index.php?r=toko
+---
+2014/01/03 15:26:46 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii.informasi' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `informasi`.
+in C:\xampp\htdocs\helmi\protected\controllers\TokoController.php (24)
+in C:\xampp\htdocs\helmi\index.php (13)
+2014/01/03 15:26:46 [error] [exception.CDbException] exception 'CDbException' with message 'The table "informasi" for active record class "Kuis" cannot be found in the database.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Kuis))
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1350): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#4 C:\xampp\htdocs\helmi\protected\controllers\TokoController.php(24): CActiveRecord->findAll()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TokoController->actionIndex()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('toko')
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/helmi/index.php?r=toko
+---
+2014/01/03 15:29:05 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii.informasi' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `informasi`.
+in C:\xampp\htdocs\helmi\protected\controllers\TokoController.php (24)
+in C:\xampp\htdocs\helmi\index.php (13)
+2014/01/03 15:29:05 [error] [exception.CDbException] exception 'CDbException' with message 'The table "informasi" for active record class "Kuis" cannot be found in the database.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Kuis))
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1350): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#4 C:\xampp\htdocs\helmi\protected\controllers\TokoController.php(24): CActiveRecord->findAll()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TokoController->actionIndex()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('toko')
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/helmi/index.php?r=toko
+---
+2014/01/03 15:30:39 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii.informasi' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `informasi`.
+in C:\xampp\htdocs\helmi\protected\controllers\TokoController.php (24)
+in C:\xampp\htdocs\helmi\index.php (13)
+2014/01/03 15:30:39 [error] [exception.CDbException] exception 'CDbException' with message 'The table "informasi" for active record class "Kuis" cannot be found in the database.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Kuis))
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1350): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#4 C:\xampp\htdocs\helmi\protected\controllers\TokoController.php(24): CActiveRecord->findAll()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TokoController->actionIndex()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('toko')
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/helmi/index.php?r=toko
+---
+2014/01/03 15:33:33 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii.informasi' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `informasi`.
+in C:\xampp\htdocs\helmi\protected\controllers\KuisController.php (7)
+in C:\xampp\htdocs\helmi\index.php (13)
+2014/01/03 15:33:33 [error] [exception.CDbException] exception 'CDbException' with message 'The table "informasi" for active record class "Kuis" cannot be found in the database.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Kuis))
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1350): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#4 C:\xampp\htdocs\helmi\protected\controllers\KuisController.php(7): CActiveRecord->findAll()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): KuisController->actionIndex()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('kuis')
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/helmi/index.php?r=kuis
+---
+2014/01/03 15:33:41 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii.informasi' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `informasi`.
+in C:\xampp\htdocs\helmi\protected\controllers\TokoController.php (24)
+in C:\xampp\htdocs\helmi\index.php (13)
+2014/01/03 15:33:41 [error] [exception.CDbException] exception 'CDbException' with message 'The table "informasi" for active record class "Kuis" cannot be found in the database.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Kuis))
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1350): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#4 C:\xampp\htdocs\helmi\protected\controllers\TokoController.php(24): CActiveRecord->findAll()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TokoController->actionIndex()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('toko/')
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/helmi/index.php?r=toko/
+---
+2014/01/03 15:35:49 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii.informasi' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `informasi`.
+in C:\xampp\htdocs\helmi\protected\controllers\TokoController.php (24)
+in C:\xampp\htdocs\helmi\index.php (13)
+2014/01/03 15:35:49 [error] [exception.CDbException] exception 'CDbException' with message 'The table "informasi" for active record class "Kuis" cannot be found in the database.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Kuis))
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1350): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#4 C:\xampp\htdocs\helmi\protected\controllers\TokoController.php(24): CActiveRecord->findAll()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TokoController->actionIndex()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('toko')
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/helmi/index.php?r=toko
+---
+2014/01/03 15:38:57 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii.informasi' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `informasi`.
+in C:\xampp\htdocs\helmi\protected\controllers\TokoController.php (24)
+in C:\xampp\htdocs\helmi\index.php (13)
+2014/01/03 15:38:57 [error] [exception.CDbException] exception 'CDbException' with message 'The table "informasi" for active record class "Kuis" cannot be found in the database.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Kuis))
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1350): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#4 C:\xampp\htdocs\helmi\protected\controllers\TokoController.php(24): CActiveRecord->findAll()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TokoController->actionIndex()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('toko')
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/helmi/index.php?r=toko
+---
+2014/01/03 15:51:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "toko/".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('toko/')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/helmi/index.php?r=toko/
+---
+2014/01/03 15:51:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "toko".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('toko')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/helmi/index.php?r=toko
+---
+2014/01/03 15:51:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "toko/create".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('toko/create')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/helmi/index.php?r=toko/create
+---
+2014/01/03 15:52:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "toko/".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('toko/')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/helmi/index.php?r=toko/
+---
+2014/01/03 15:53:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "toko".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('toko')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/helmi/index.php?r=toko
+---
+2014/01/04 03:28:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "toko/".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('toko/')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/helmi/index.php?r=toko/
+---
+2014/01/04 03:28:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "toko".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('toko')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/helmi/index.php?r=toko
+---
+2014/01/04 03:28:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "toko/create".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('toko/create')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/helmi/index.php?r=toko/create
+---
+2014/01/04 03:42:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "toko/".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('toko/')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/helmi/index.php?r=toko/
+---
+2014/01/04 03:42:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "toko".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('toko')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/helmi/index.php?r=toko
+---
+2014/01/04 03:53:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "update".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('update')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('toko/update')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/helmi/index.php?r=toko/update&id=1
+HTTP_REFERER=http://localhost/helmi/index.php?r=toko
+---
+2014/01/04 03:54:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "delete".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('delete')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('toko/delete')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/helmi/index.php?r=toko/delete&id=1
+HTTP_REFERER=http://localhost/helmi/index.php?r=toko
+---
+2014/01/04 04:07:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "update".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('update')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('toko/update')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/helmi/index.php?r=toko/update&id=1
+HTTP_REFERER=http://localhost/helmi/index.php?r=toko
+---
+2014/01/04 04:08:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "delete".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('delete')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('toko/delete')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/helmi/index.php?r=toko/delete&id=1
+HTTP_REFERER=http://localhost/helmi/index.php?r=toko
+---
+2014/01/04 04:09:54 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii.mahasiswa' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `mahasiswa`.
+in C:\xampp\htdocs\helmi\protected\controllers\TokoController.php (44)
+in C:\xampp\htdocs\helmi\index.php (13)
+2014/01/04 04:09:54 [error] [exception.CDbException] exception 'CDbException' with message 'The table "mahasiswa" for active record class "Tugas" cannot be found in the database.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Tugas))
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1800): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\helmi\protected\controllers\TokoController.php(44): CActiveRecord->deleteByPk('1')
+#4 [internal function]: TokoController->actionDelete('1')
+#5 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(TokoController), Array)
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(TokoController), Object(ReflectionMethod), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('toko/delete')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/helmi/index.php?r=toko/delete&id=1
+HTTP_REFERER=http://localhost/helmi/index.php?r=toko
+---
+2014/01/04 04:17:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "update".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('update')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('toko/update')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/helmi/index.php?r=toko/update&id=2
+HTTP_REFERER=http://localhost/helmi/index.php?r=toko/index
+---
+2014/01/04 04:19:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "update".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('update')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('toko/update')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/helmi/index.php?r=toko/update&id=2
+HTTP_REFERER=http://localhost/helmi/index.php?r=toko/index
+---
+2014/01/04 04:57:35 [error] [php] Undefined variable: select (C:\xampp\htdocs\helmi\protected\views\toko\create.php:16)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): TokoController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): TokoController->renderPartial()
+#2 C:\xampp\htdocs\helmi\protected\controllers\TokoController.php(17): TokoController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TokoController->actionCreate()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): TokoController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): TokoController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): TokoController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\helmi\index.php(13): CWebApplication->run()
+REQUEST_URI=/helmi/index.php?r=toko/create
+in C:\xampp\htdocs\helmi\protected\views\toko\create.php (16)
+in C:\xampp\htdocs\helmi\protected\controllers\TokoController.php (17)
+in C:\xampp\htdocs\helmi\index.php (13)
+2014/01/04 06:18:53 [error] [exception.CException] exception 'CException' with message 'Property "Toko.nim" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(161): CComponent->__set('nim', '1')
+#1 C:\xampp\htdocs\helmi\protected\controllers\TokoController.php(9): CActiveRecord->__set('nim', '1')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TokoController->actionCreate()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('toko/create')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/helmi/index.php?r=toko/create
+HTTP_REFERER=http://localhost/helmi/index.php?r=toko/update&id=1
+---
+2014/01/04 06:22:46 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `toko` (`id`, `nama`, `kategori`, `harga`) VALUES (:yp0, :yp1, :yp2, :yp3).
+in C:\xampp\htdocs\helmi\protected\controllers\TokoController.php (13)
+in C:\xampp\htdocs\helmi\index.php (13)
+2014/01/04 06:22:46 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `toko` (`id`, `nama`, `kategori`, `harga`) VALUES (:yp0, :yp1, :yp2, :yp3)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\helmi\protected\controllers\TokoController.php(13): CActiveRecord->save()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TokoController->actionCreate()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('toko/create')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/helmi/index.php?r=toko/create
+HTTP_REFERER=http://localhost/helmi/index.php?r=toko/update&id=1
+---
+2014/01/04 06:24:10 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '4' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `toko` (`id`, `nama`, `kategori`, `harga`) VALUES (:yp0, :yp1, :yp2, :yp3).
+in C:\xampp\htdocs\helmi\protected\controllers\TokoController.php (13)
+in C:\xampp\htdocs\helmi\index.php (13)
+2014/01/04 06:24:10 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '4' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `toko` (`id`, `nama`, `kategori`, `harga`) VALUES (:yp0, :yp1, :yp2, :yp3)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\helmi\protected\controllers\TokoController.php(13): CActiveRecord->save()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TokoController->actionCreate()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('toko/create')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/helmi/index.php?r=toko/create
+HTTP_REFERER=http://localhost/helmi/index.php?r=toko/update&id=4
+---
+2014/01/04 06:26:26 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '5' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `toko` (`id`, `nama`, `kategori`, `harga`) VALUES (:yp0, :yp1, :yp2, :yp3).
+in C:\xampp\htdocs\helmi\protected\controllers\TokoController.php (13)
+in C:\xampp\htdocs\helmi\index.php (13)
+2014/01/04 06:26:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '5' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `toko` (`id`, `nama`, `kategori`, `harga`) VALUES (:yp0, :yp1, :yp2, :yp3)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\helmi\protected\controllers\TokoController.php(13): CActiveRecord->save()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TokoController->actionCreate()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('toko/create')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/helmi/index.php?r=toko/create
+HTTP_REFERER=http://localhost/helmi/index.php?r=toko/update&id=5
+---
+2014/01/04 06:30:25 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\helmi\protected\views\toko\update.php:2)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): TokoController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): TokoController->renderPartial()
+#2 C:\xampp\htdocs\helmi\protected\controllers\TokoController.php(39): TokoController->render()
+#3 unknown(0): TokoController->actionUpdate()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(286): TokoController->runAction()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(265): TokoController->runActionWithFilters()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): TokoController->run()
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\helmi\index.php(13): CWebApplication->run()
+REQUEST_URI=/helmi/index.php?r=toko/update&id=5
+in C:\xampp\htdocs\helmi\protected\views\toko\update.php (2)
+in C:\xampp\htdocs\helmi\protected\controllers\TokoController.php (39)
+in C:\xampp\htdocs\helmi\index.php (13)
+2014/01/04 06:31:22 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `toko` (`id`, `nama`, `kategori`, `harga`) VALUES (:yp0, :yp1, :yp2, :yp3).
+in C:\xampp\htdocs\helmi\protected\controllers\TokoController.php (13)
+in C:\xampp\htdocs\helmi\index.php (13)
+2014/01/04 06:31:22 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `toko` (`id`, `nama`, `kategori`, `harga`) VALUES (:yp0, :yp1, :yp2, :yp3)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\helmi\protected\controllers\TokoController.php(13): CActiveRecord->save()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TokoController->actionCreate()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('toko/create')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/helmi/index.php?r=toko/create
+HTTP_REFERER=http://localhost/helmi/index.php?r=toko/create
+---
+2014/01/04 06:51:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page  does not exist.' in C:\xampp\htdocs\helmi\protected\controllers\TokoController.php:51
+Stack trace:
+#0 [internal function]: TokoController->actionDelete('4')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(TokoController), Array)
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(TokoController), Object(ReflectionMethod), Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('toko/delete')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/helmi/index.php?r=toko/delete&id=4
+HTTP_REFERER=http://localhost/helmi/index.php?r=toko/index
+---
+2014/01/08 03:17:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "toiko".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('toiko')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('toiko')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('helmi/toiko')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/helmi/index.php?r=helmi/toiko
+---
+2014/01/08 03:18:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "toko".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('toko')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('toko')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('helmi/toko')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/helmi/index.php?r=helmi/toko
+---
+2014/01/08 03:18:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "toko".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('toko')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('toko')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('helmi/toko')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/helmi/index.php?r=helmi/toko
+---
+2014/01/08 03:18:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "toko".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('toko')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('toko')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('helmi/toko')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/helmi/index.php?r=helmi/toko
+---
+2014/01/12 13:48:24 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii.film' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `film`.
+in C:\xampp\htdocs\helmi\index.php (13)
+2014/01/14 14:45:20 [error] [php] Undefined variable: form (C:\xampp\htdocs\helmi\protected\views\toko\create.php:16)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): TokoController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): TokoController->renderPartial()
+#2 C:\xampp\htdocs\helmi\protected\controllers\TokoController.php(19): TokoController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TokoController->actionCreate()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): TokoController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): TokoController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): TokoController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\helmi\index.php(13): CWebApplication->run()
+REQUEST_URI=/helmi/index.php?r=toko/create
+in C:\xampp\htdocs\helmi\protected\views\toko\create.php (16)
+in C:\xampp\htdocs\helmi\protected\controllers\TokoController.php (19)
+in C:\xampp\htdocs\helmi\index.php (13)
+2014/01/14 14:46:00 [error] [php] Undefined variable: row (C:\xampp\htdocs\helmi\protected\views\toko\create.php:16)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): TokoController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): TokoController->renderPartial()
+#2 C:\xampp\htdocs\helmi\protected\controllers\TokoController.php(19): TokoController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TokoController->actionCreate()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): TokoController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): TokoController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): TokoController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\helmi\index.php(13): CWebApplication->run()
+REQUEST_URI=/helmi/index.php?r=toko/create
+in C:\xampp\htdocs\helmi\protected\views\toko\create.php (16)
+in C:\xampp\htdocs\helmi\protected\controllers\TokoController.php (19)
+in C:\xampp\htdocs\helmi\index.php (13)
+2014/01/14 14:53:27 [error] [php] Undefined index: kategori (C:\xampp\htdocs\helmi\protected\controllers\TokoController.php:11)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(286): TokoController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(265): TokoController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): TokoController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\helmi\index.php(13): CWebApplication->run()
+REQUEST_URI=/helmi/index.php?r=toko/create
+in C:\xampp\htdocs\helmi\protected\controllers\TokoController.php (11)
+in C:\xampp\htdocs\helmi\index.php (13)
+2014/01/15 06:29:45 [error] [php] Undefined index: kategori (C:\xampp\htdocs\helmi\protected\controllers\TokoController.php:11)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(286): TokoController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(265): TokoController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): TokoController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\helmi\index.php(13): CWebApplication->run()
+REQUEST_URI=/helmi/index.php?r=toko/create
+in C:\xampp\htdocs\helmi\protected\controllers\TokoController.php (11)
+in C:\xampp\htdocs\helmi\index.php (13)
+2014/01/22 13:15:48 [error] [php] Undefined index: kategori (C:\xampp\htdocs\helmi\protected\controllers\TokoController.php:11)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(286): TokoController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(265): TokoController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): TokoController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\helmi\index.php(13): CWebApplication->run()
+REQUEST_URI=/helmi/index.php?r=toko/create
+in C:\xampp\htdocs\helmi\protected\controllers\TokoController.php (11)
+in C:\xampp\htdocs\helmi\index.php (13)
+2014/01/22 13:48:20 [error] [exception.CException] exception 'CException' with message 'Property "Toko.id_kategori" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id_kategori')
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(656): CActiveRecord->__get('id_kategori')
+#2 C:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(500): CJoinElement->applyLazyCondition(Object(CJoinQuery), Object(Toko))
+#3 C:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(163): CJoinElement->lazyFind(Object(Toko))
+#4 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(281): CActiveFinder->lazyFind(Object(Toko))
+#5 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(143): CActiveRecord->getRelated('kategori')
+#6 C:\xampp\htdocs\helmi\protected\views\toko\index.php(16): CActiveRecord->__get('kategori')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#11 C:\xampp\htdocs\helmi\protected\controllers\TokoController.php(24): CController->render('index', Array)
+#12 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TokoController->actionIndex()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('toko')
+#18 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/helmi/index.php?r=toko
+---
+2014/01/22 13:49:48 [error] [exception.CException] exception 'CException' with message 'Property "Toko.id_kategori" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id_kategori')
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(656): CActiveRecord->__get('id_kategori')
+#2 C:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(500): CJoinElement->applyLazyCondition(Object(CJoinQuery), Object(Toko))
+#3 C:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(163): CJoinElement->lazyFind(Object(Toko))
+#4 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(281): CActiveFinder->lazyFind(Object(Toko))
+#5 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(143): CActiveRecord->getRelated('kategori')
+#6 C:\xampp\htdocs\helmi\protected\views\toko\index.php(16): CActiveRecord->__get('kategori')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#11 C:\xampp\htdocs\helmi\protected\controllers\TokoController.php(24): CController->render('index', Array)
+#12 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TokoController->actionIndex()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('toko')
+#18 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/helmi/index.php?r=toko
+---
+2014/01/22 13:57:57 [error] [exception.CException] exception 'CException' with message 'Property "Toko.id_kategori" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id_kategori')
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(656): CActiveRecord->__get('id_kategori')
+#2 C:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(500): CJoinElement->applyLazyCondition(Object(CJoinQuery), Object(Toko))
+#3 C:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(163): CJoinElement->lazyFind(Object(Toko))
+#4 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(281): CActiveFinder->lazyFind(Object(Toko))
+#5 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(143): CActiveRecord->getRelated('kategori')
+#6 C:\xampp\htdocs\helmi\protected\views\toko\index.php(16): CActiveRecord->__get('kategori')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#11 C:\xampp\htdocs\helmi\protected\controllers\TokoController.php(23): CController->render('index', Array)
+#12 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TokoController->actionIndex()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('toko')
+#18 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/helmi/index.php?r=toko
+---
+2014/01/22 14:00:14 [error] [exception.CException] exception 'CException' with message 'Property "Toko.id_kategori" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id_kategori')
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(656): CActiveRecord->__get('id_kategori')
+#2 C:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(500): CJoinElement->applyLazyCondition(Object(CJoinQuery), Object(Toko))
+#3 C:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(163): CJoinElement->lazyFind(Object(Toko))
+#4 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(281): CActiveFinder->lazyFind(Object(Toko))
+#5 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(143): CActiveRecord->getRelated('kategori')
+#6 C:\xampp\htdocs\helmi\protected\views\toko\index.php(16): CActiveRecord->__get('kategori')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#11 C:\xampp\htdocs\helmi\protected\controllers\TokoController.php(23): CController->render('index', Array)
+#12 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TokoController->actionIndex()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('toko')
+#18 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/helmi/index.php?r=toko
+---
+2014/01/22 14:08:43 [error] [exception.CException] exception 'CException' with message 'Property "Toko.id_kategori" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id_kategori')
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(656): CActiveRecord->__get('id_kategori')
+#2 C:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(500): CJoinElement->applyLazyCondition(Object(CJoinQuery), Object(Toko))
+#3 C:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(163): CJoinElement->lazyFind(Object(Toko))
+#4 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(281): CActiveFinder->lazyFind(Object(Toko))
+#5 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(143): CActiveRecord->getRelated('kategori')
+#6 C:\xampp\htdocs\helmi\protected\views\toko\index.php(16): CActiveRecord->__get('kategori')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#11 C:\xampp\htdocs\helmi\protected\controllers\TokoController.php(24): CController->render('index', Array)
+#12 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TokoController->actionIndex()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('toko')
+#18 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/helmi/index.php?r=toko
+---
+2014/01/22 14:12:29 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\helmi\protected\views\toko\index.php:16)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): TokoController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): TokoController->renderPartial()
+#2 C:\xampp\htdocs\helmi\protected\controllers\TokoController.php(24): TokoController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TokoController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): TokoController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): TokoController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): TokoController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\helmi\index.php(13): CWebApplication->run()
+REQUEST_URI=/helmi/index.php?r=toko
+in C:\xampp\htdocs\helmi\protected\views\toko\index.php (16)
+in C:\xampp\htdocs\helmi\protected\controllers\TokoController.php (24)
+in C:\xampp\htdocs\helmi\index.php (13)
+2014/01/22 14:20:22 [error] [php] Undefined variable: form (C:\xampp\htdocs\helmi\protected\views\toko\create.php:16)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): TokoController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): TokoController->renderPartial()
+#2 C:\xampp\htdocs\helmi\protected\controllers\TokoController.php(19): TokoController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TokoController->actionCreate()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): TokoController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): TokoController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): TokoController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\helmi\index.php(13): CWebApplication->run()
+REQUEST_URI=/helmi/index.php?r=toko/create
+in C:\xampp\htdocs\helmi\protected\views\toko\create.php (16)
+in C:\xampp\htdocs\helmi\protected\controllers\TokoController.php (19)
+in C:\xampp\htdocs\helmi\index.php (13)
+2014/01/22 14:27:05 [error] [php] Undefined variable: form (C:\xampp\htdocs\helmi\protected\views\toko\create.php:22)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): TokoController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): TokoController->renderPartial()
+#2 C:\xampp\htdocs\helmi\protected\controllers\TokoController.php(19): TokoController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TokoController->actionCreate()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): TokoController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): TokoController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): TokoController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\helmi\index.php(13): CWebApplication->run()
+REQUEST_URI=/helmi/index.php?r=toko/create
+in C:\xampp\htdocs\helmi\protected\views\toko\create.php (22)
+in C:\xampp\htdocs\helmi\protected\controllers\TokoController.php (19)
+in C:\xampp\htdocs\helmi\index.php (13)
+2014/01/23 13:42:06 [error] [exception.CException] exception 'CException' with message 'HelmiController cannot find the requested view "contact".' in C:\xampp\htdocs\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('contact', Array, true)
+#1 C:\xampp\htdocs\helmi\protected\controllers\HelmiController.php(72): CController->render('contact', Array)
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): HelmiController->actionContact()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('contact')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('helmi/contact')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/helmi/index.php?r=helmi/contact
+HTTP_REFERER=http://localhost/helmi/index.php?r=toko
+---
+2014/01/25 07:23:40 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#4 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('toko/update')
+#5 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/helmi/index.php?r=toko/update
+---
+2014/01/25 07:25:11 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#4 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('toko/update')
+#5 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\helmi\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/helmi/index.php?r=toko/update
+---

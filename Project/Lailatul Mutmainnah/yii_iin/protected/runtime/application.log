@@ -1,0 +1,453 @@
+2013/04/11 12:22:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "helloo".' in C:\xampp\htdocs\yiinazuma\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yiinazuma\framework\web\CWebApplication.php(135): CWebApplication->runController('helloo')
+#1 C:\xampp\htdocs\yiinazuma\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yiinazuma\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiinazuma/index.php?r=helloo
+---
+2013/04/11 12:31:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "helloo".' in C:\xampp\htdocs\yiinazuma\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yiinazuma\framework\web\CWebApplication.php(135): CWebApplication->runController('helloo')
+#1 C:\xampp\htdocs\yiinazuma\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yiinazuma\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiinazuma/index.php?r=helloo
+---
+2013/04/11 12:31:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "helloo".' in C:\xampp\htdocs\yiinazuma\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yiinazuma\framework\web\CWebApplication.php(135): CWebApplication->runController('helloo')
+#1 C:\xampp\htdocs\yiinazuma\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yiinazuma\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiinazuma/index.php?r=helloo
+---
+2013/04/11 12:31:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "helloo".' in C:\xampp\htdocs\yiinazuma\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yiinazuma\framework\web\CWebApplication.php(135): CWebApplication->runController('helloo')
+#1 C:\xampp\htdocs\yiinazuma\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yiinazuma\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiinazuma/index.php?r=helloo
+---
+2013/04/11 12:32:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "helloo".' in C:\xampp\htdocs\yiinazuma\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yiinazuma\framework\web\CWebApplication.php(135): CWebApplication->runController('helloo')
+#1 C:\xampp\htdocs\yiinazuma\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yiinazuma\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiinazuma/index.php?r=helloo
+---
+2013/04/13 10:28:33 [error] [php] Undefined variable: BILANGAN (C:\xampp\htdocs\yiinazuma\protected\controllers\AritmatikaController.php:8)
+Stack trace:
+#0 C:\xampp\htdocs\yiinazuma\framework\web\CController.php(287): AritmatikaController->runAction()
+#1 C:\xampp\htdocs\yiinazuma\framework\web\CController.php(266): AritmatikaController->runActionWithFilters()
+#2 C:\xampp\htdocs\yiinazuma\framework\web\CWebApplication.php(276): AritmatikaController->run()
+#3 C:\xampp\htdocs\yiinazuma\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\xampp\htdocs\yiinazuma\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\yiinazuma\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiinazuma/index.php?r=aritmatika
+in C:\xampp\htdocs\yiinazuma\protected\controllers\AritmatikaController.php (8)
+in C:\xampp\htdocs\yiinazuma\index.php (13)
+2013/04/16 17:15:04 [error] [exception.CException] exception 'CException' with message 'LinkController cannot find the requested view "riders".' in C:\xampp\htdocs\yiinazuma\framework\web\CController.php:879
+Stack trace:
+#0 C:\xampp\htdocs\yiinazuma\framework\web\CController.php(783): CController->renderPartial('riders', NULL, true)
+#1 C:\xampp\htdocs\yiinazuma\protected\controllers\LinkController.php(11): CController->render('riders')
+#2 C:\xampp\htdocs\yiinazuma\framework\web\actions\CInlineAction.php(50): LinkController->actionRiders()
+#3 C:\xampp\htdocs\yiinazuma\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yiinazuma\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yiinazuma\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yiinazuma\framework\web\CWebApplication.php(276): CController->run('riders')
+#7 C:\xampp\htdocs\yiinazuma\framework\web\CWebApplication.php(135): CWebApplication->runController('link/riders')
+#8 C:\xampp\htdocs\yiinazuma\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yiinazuma\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yiinazuma/index.php?r=link/riders
+HTTP_REFERER=http://localhost/yiinazuma/index.php?r=link
+---
+2013/04/17 11:14:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ridersform".' in C:\xampp\htdocs\yiinazuma\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yiinazuma\framework\web\CController.php(271): CController->missingAction('ridersform')
+#1 C:\xampp\htdocs\yiinazuma\framework\web\CWebApplication.php(276): CController->run('ridersform')
+#2 C:\xampp\htdocs\yiinazuma\framework\web\CWebApplication.php(135): CWebApplication->runController('link/ridersform')
+#3 C:\xampp\htdocs\yiinazuma\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yiinazuma\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiinazuma/index.php?r=link/ridersform
+---
+2013/04/17 11:14:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "form".' in C:\xampp\htdocs\yiinazuma\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yiinazuma\framework\web\CWebApplication.php(135): CWebApplication->runController('form')
+#1 C:\xampp\htdocs\yiinazuma\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yiinazuma\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiinazuma/index.php?r=form
+---
+2013/04/17 11:14:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "form".' in C:\xampp\htdocs\yiinazuma\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yiinazuma\framework\web\CWebApplication.php(135): CWebApplication->runController('form')
+#1 C:\xampp\htdocs\yiinazuma\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yiinazuma\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiinazuma/index.php?r=form
+---
+2013/04/17 11:15:43 [error] [php] Undefined variable: select (C:\xampp\htdocs\yiinazuma\protected\views\form\index.php:14)
+Stack trace:
+#0 C:\xampp\htdocs\yiinazuma\framework\web\CController.php(870): FormController->renderFile()
+#1 C:\xampp\htdocs\yiinazuma\framework\web\CController.php(783): FormController->renderPartial()
+#2 C:\xampp\htdocs\yiinazuma\protected\controllers\FormController.php(7): FormController->render()
+#3 C:\xampp\htdocs\yiinazuma\framework\web\actions\CInlineAction.php(50): FormController->actionIndex()
+#4 C:\xampp\htdocs\yiinazuma\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yiinazuma\framework\web\CController.php(287): FormController->runAction()
+#6 C:\xampp\htdocs\yiinazuma\framework\web\CController.php(266): FormController->runActionWithFilters()
+#7 C:\xampp\htdocs\yiinazuma\framework\web\CWebApplication.php(276): FormController->run()
+#8 C:\xampp\htdocs\yiinazuma\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\xampp\htdocs\yiinazuma\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiinazuma\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiinazuma/index.php?r=form
+in C:\xampp\htdocs\yiinazuma\protected\views\form\index.php (14)
+in C:\xampp\htdocs\yiinazuma\protected\controllers\FormController.php (7)
+in C:\xampp\htdocs\yiinazuma\index.php (13)
+2013/04/17 11:21:49 [error] [php] Undefined variable: select (C:\xampp\htdocs\yiinazuma\protected\views\form\index.php:15)
+Stack trace:
+#0 C:\xampp\htdocs\yiinazuma\framework\web\CController.php(870): FormController->renderFile()
+#1 C:\xampp\htdocs\yiinazuma\framework\web\CController.php(783): FormController->renderPartial()
+#2 C:\xampp\htdocs\yiinazuma\protected\controllers\FormController.php(7): FormController->render()
+#3 C:\xampp\htdocs\yiinazuma\framework\web\actions\CInlineAction.php(50): FormController->actionIndex()
+#4 C:\xampp\htdocs\yiinazuma\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yiinazuma\framework\web\CController.php(287): FormController->runAction()
+#6 C:\xampp\htdocs\yiinazuma\framework\web\CController.php(266): FormController->runActionWithFilters()
+#7 C:\xampp\htdocs\yiinazuma\framework\web\CWebApplication.php(276): FormController->run()
+#8 C:\xampp\htdocs\yiinazuma\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\xampp\htdocs\yiinazuma\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiinazuma\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiinazuma/index.php?r=form
+in C:\xampp\htdocs\yiinazuma\protected\views\form\index.php (15)
+in C:\xampp\htdocs\yiinazuma\protected\controllers\FormController.php (7)
+in C:\xampp\htdocs\yiinazuma\index.php (13)
+2013/04/17 12:03:43 [error] [php] Use of undefined constant select - assumed 'select' (C:\xampp\htdocs\yiinazuma\protected\views\form\index.php:15)
+Stack trace:
+#0 C:\xampp\htdocs\yiinazuma\framework\web\CController.php(870): FormController->renderFile()
+#1 C:\xampp\htdocs\yiinazuma\framework\web\CController.php(783): FormController->renderPartial()
+#2 C:\xampp\htdocs\yiinazuma\protected\controllers\FormController.php(7): FormController->render()
+#3 C:\xampp\htdocs\yiinazuma\framework\web\actions\CInlineAction.php(50): FormController->actionIndex()
+#4 C:\xampp\htdocs\yiinazuma\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yiinazuma\framework\web\CController.php(287): FormController->runAction()
+#6 C:\xampp\htdocs\yiinazuma\framework\web\CController.php(266): FormController->runActionWithFilters()
+#7 C:\xampp\htdocs\yiinazuma\framework\web\CWebApplication.php(276): FormController->run()
+#8 C:\xampp\htdocs\yiinazuma\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\xampp\htdocs\yiinazuma\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiinazuma\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiinazuma/index.php?r=form
+in C:\xampp\htdocs\yiinazuma\protected\views\form\index.php (15)
+in C:\xampp\htdocs\yiinazuma\protected\controllers\FormController.php (7)
+in C:\xampp\htdocs\yiinazuma\index.php (13)
+2013/04/17 12:17:16 [error] [php] Undefined variable: select (C:\xampp\htdocs\yiinazuma\protected\views\form\index.php:14)
+Stack trace:
+#0 C:\xampp\htdocs\yiinazuma\framework\web\CController.php(870): FormController->renderFile()
+#1 C:\xampp\htdocs\yiinazuma\framework\web\CController.php(783): FormController->renderPartial()
+#2 C:\xampp\htdocs\yiinazuma\protected\controllers\FormController.php(7): FormController->render()
+#3 C:\xampp\htdocs\yiinazuma\framework\web\actions\CInlineAction.php(50): FormController->actionIndex()
+#4 C:\xampp\htdocs\yiinazuma\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yiinazuma\framework\web\CController.php(287): FormController->runAction()
+#6 C:\xampp\htdocs\yiinazuma\framework\web\CController.php(266): FormController->runActionWithFilters()
+#7 C:\xampp\htdocs\yiinazuma\framework\web\CWebApplication.php(276): FormController->run()
+#8 C:\xampp\htdocs\yiinazuma\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\xampp\htdocs\yiinazuma\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiinazuma\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiinazuma/index.php?r=form
+in C:\xampp\htdocs\yiinazuma\protected\views\form\index.php (14)
+in C:\xampp\htdocs\yiinazuma\protected\controllers\FormController.php (7)
+in C:\xampp\htdocs\yiinazuma\index.php (13)
+2013/05/10 02:17:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "update".' in C:\xampp\htdocs\yiinazuma\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yiinazuma\framework\web\CController.php(271): CController->missingAction('update')
+#1 C:\xampp\htdocs\yiinazuma\framework\web\CWebApplication.php(276): CController->run('update')
+#2 C:\xampp\htdocs\yiinazuma\framework\web\CWebApplication.php(135): CWebApplication->runController('buku/update')
+#3 C:\xampp\htdocs\yiinazuma\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yiinazuma\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiinazuma/index.php?r=buku/update&id=3
+HTTP_REFERER=http://localhost/yiinazuma/index.php?r=buku
+---
+2013/05/12 21:00:15 [error] [exception.CException] exception 'CException' with message 'Property "Kategori.id" is not defined.' in C:\xampp\htdocs\yiinazuma4\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\yiinazuma4\framework\db\ar\CActiveRecord.php(144): CComponent->__get('id')
+#1 C:\xampp\htdocs\yiinazuma4\framework\web\helpers\CHtml.php(1696): CActiveRecord->__get('id')
+#2 C:\xampp\htdocs\yiinazuma4\framework\web\helpers\CHtml.php(1659): CHtml::value(Object(Kategori), 'id')
+#3 C:\xampp\htdocs\yiinazuma4\protected\views\buku\create.php(22): CHtml::listData(Array, 'id', 'nama_kategori')
+#4 C:\xampp\htdocs\yiinazuma4\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yiinazuma4\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yiinazuma4\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yiinazuma4\framework\web\CController.php(783): CController->renderPartial('create', Array, true)
+#8 C:\xampp\htdocs\yiinazuma4\protected\controllers\BukuController.php(17): CController->render('create', Array)
+#9 C:\xampp\htdocs\yiinazuma4\framework\web\actions\CInlineAction.php(50): BukuController->actionCreate()
+#10 C:\xampp\htdocs\yiinazuma4\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yiinazuma4\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yiinazuma4\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yiinazuma4\framework\web\CWebApplication.php(276): CController->run('create')
+#14 C:\xampp\htdocs\yiinazuma4\framework\web\CWebApplication.php(135): CWebApplication->runController('buku/create')
+#15 C:\xampp\htdocs\yiinazuma4\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\yiinazuma4\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yiinazuma4/index.php?r=buku/create
+---
+2013/05/12 21:01:23 [error] [exception.CException] exception 'CException' with message 'Property "Kategori.id" is not defined.' in C:\xampp\htdocs\yiinazuma4\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\yiinazuma4\framework\db\ar\CActiveRecord.php(144): CComponent->__get('id')
+#1 C:\xampp\htdocs\yiinazuma4\framework\web\helpers\CHtml.php(1696): CActiveRecord->__get('id')
+#2 C:\xampp\htdocs\yiinazuma4\framework\web\helpers\CHtml.php(1659): CHtml::value(Object(Kategori), 'id')
+#3 C:\xampp\htdocs\yiinazuma4\protected\views\buku\create.php(22): CHtml::listData(Array, 'id', 'nama_kategori')
+#4 C:\xampp\htdocs\yiinazuma4\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yiinazuma4\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yiinazuma4\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yiinazuma4\framework\web\CController.php(783): CController->renderPartial('create', Array, true)
+#8 C:\xampp\htdocs\yiinazuma4\protected\controllers\BukuController.php(17): CController->render('create', Array)
+#9 C:\xampp\htdocs\yiinazuma4\framework\web\actions\CInlineAction.php(50): BukuController->actionCreate()
+#10 C:\xampp\htdocs\yiinazuma4\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yiinazuma4\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yiinazuma4\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yiinazuma4\framework\web\CWebApplication.php(276): CController->run('create')
+#14 C:\xampp\htdocs\yiinazuma4\framework\web\CWebApplication.php(135): CWebApplication->runController('buku/create')
+#15 C:\xampp\htdocs\yiinazuma4\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\yiinazuma4\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yiinazuma4/index.php?r=buku/create
+---
+2013/05/13 04:34:40 [error] [exception.CException] exception 'CException' with message 'Property "Buku.kategori_id" is not defined.' in C:\xampp\htdocs\yiinazuma4\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\xampp\htdocs\yiinazuma4\framework\db\ar\CActiveRecord.php(160): CComponent->__set('kategori_id', '2')
+#1 C:\xampp\htdocs\yiinazuma4\protected\controllers\BukuController.php(12): CActiveRecord->__set('kategori_id', '2')
+#2 C:\xampp\htdocs\yiinazuma4\framework\web\actions\CInlineAction.php(50): BukuController->actionCreate()
+#3 C:\xampp\htdocs\yiinazuma4\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yiinazuma4\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yiinazuma4\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yiinazuma4\framework\web\CWebApplication.php(276): CController->run('create')
+#7 C:\xampp\htdocs\yiinazuma4\framework\web\CWebApplication.php(135): CWebApplication->runController('buku/create')
+#8 C:\xampp\htdocs\yiinazuma4\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yiinazuma4\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yiinazuma4/index.php?r=buku/create
+HTTP_REFERER=http://localhost/yiinazuma4/index.php?r=buku/create
+---
+2013/05/15 07:49:22 [error] [exception.CException] exception 'CException' with message 'HeroesController cannot find the requested view "index".' in C:\xampp\htdocs\yiinazuma4\framework\web\CController.php:879
+Stack trace:
+#0 C:\xampp\htdocs\yiinazuma4\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#1 C:\xampp\htdocs\yiinazuma4\protected\controllers\HeroesController.php(42): CController->render('index', Array)
+#2 C:\xampp\htdocs\yiinazuma4\framework\web\actions\CInlineAction.php(50): HeroesController->actionIndex()
+#3 C:\xampp\htdocs\yiinazuma4\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yiinazuma4\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yiinazuma4\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yiinazuma4\framework\web\CWebApplication.php(276): CController->run('')
+#7 C:\xampp\htdocs\yiinazuma4\framework\web\CWebApplication.php(135): CWebApplication->runController('heroes')
+#8 C:\xampp\htdocs\yiinazuma4\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yiinazuma4\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yiinazuma4/index.php?r=heroes
+HTTP_REFERER=http://localhost/yiinazuma4/index.php?r=heroes/create
+---
+2013/12/26 04:32:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "create" was not found.' in C:\xampp\htdocs\yii_iin\framework\web\actions\CViewAction.php:113
+Stack trace:
+#0 C:\xampp\htdocs\yii_iin\framework\web\actions\CViewAction.php(124): CViewAction->resolveView('create')
+#1 C:\xampp\htdocs\yii_iin\framework\web\actions\CAction.php(75): CViewAction->run()
+#2 C:\xampp\htdocs\yii_iin\framework\web\CController.php(309): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii_iin\framework\web\CController.php(287): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii_iin\framework\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii_iin\framework\web\CWebApplication.php(276): CController->run('page')
+#6 C:\xampp\htdocs\yii_iin\framework\web\CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\yii_iin\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\yii_iin\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii_iin/index.php/site/page?view=create
+---
+2014/01/02 02:44:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page  does not exist.' in C:\xampp\htdocs\yii_iin\protected\controllers\BukuController.php:89
+Stack trace:
+#0 [internal function]: BukuController->actionDelete('1')
+#1 C:\xampp\htdocs\yii_iin\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(BukuController), Array)
+#2 C:\xampp\htdocs\yii_iin\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(BukuController), Object(ReflectionMethod), Array)
+#3 C:\xampp\htdocs\yii_iin\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii_iin\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii_iin\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii_iin\framework\web\CWebApplication.php(276): CController->run('delete')
+#7 C:\xampp\htdocs\yii_iin\framework\web\CWebApplication.php(135): CWebApplication->runController('buku/delete')
+#8 C:\xampp\htdocs\yii_iin\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yii_iin\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii_iin/index.php/buku/delete/1
+HTTP_REFERER=http://localhost/yii_iin/
+---
+2014/01/02 04:27:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "print.css".' in C:\xampp\htdocs\yii_iin\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii_iin\framework\web\CController.php(271): CController->missingAction('print.css')
+#1 C:\xampp\htdocs\yii_iin\framework\web\CWebApplication.php(276): CController->run('print.css')
+#2 C:\xampp\htdocs\yii_iin\framework\web\CWebApplication.php(135): CWebApplication->runController('site/print.css')
+#3 C:\xampp\htdocs\yii_iin\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii_iin\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii_iin/index.php/site/print.css
+HTTP_REFERER=http://localhost/yii_iin/index.php/site/index
+---
+2014/01/12 10:06:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tampil/index".' in C:\xampp\htdocs\yii_iin\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yii_iin\framework\web\CWebApplication.php(135): CWebApplication->runController('tampil/index')
+#1 C:\xampp\htdocs\yii_iin\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii_iin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii_iin/index.php/tampil/index
+---
+2014/01/22 12:43:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "iin/index".' in C:\xampp\htdocs\yii_iin\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yii_iin\framework\web\CWebApplication.php(135): CWebApplication->runController('iin/index')
+#1 C:\xampp\htdocs\yii_iin\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii_iin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii_iin/index.php/iin/index
+---
+2014/01/22 12:43:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "layouts/index".' in C:\xampp\htdocs\yii_iin\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yii_iin\framework\web\CWebApplication.php(135): CWebApplication->runController('layouts/index')
+#1 C:\xampp\htdocs\yii_iin\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii_iin\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii_iin/index.php/layouts/index
+---
+2014/01/24 06:33:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "Profile" was not found.' in C:\xampp\htdocs\yii_iin\framework\web\actions\CViewAction.php:113
+Stack trace:
+#0 C:\xampp\htdocs\yii_iin\framework\web\actions\CViewAction.php(124): CViewAction->resolveView('Profile')
+#1 C:\xampp\htdocs\yii_iin\framework\web\actions\CAction.php(75): CViewAction->run()
+#2 C:\xampp\htdocs\yii_iin\framework\web\CController.php(309): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii_iin\framework\web\CController.php(287): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii_iin\framework\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii_iin\framework\web\CWebApplication.php(276): CController->run('page')
+#6 C:\xampp\htdocs\yii_iin\framework\web\CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\yii_iin\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\yii_iin\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii_iin/index.php/site/page?view=Profile
+HTTP_REFERER=http://localhost/yii_iin/index.php/buku/index
+---
+2014/01/24 06:33:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "Profile" was not found.' in C:\xampp\htdocs\yii_iin\framework\web\actions\CViewAction.php:113
+Stack trace:
+#0 C:\xampp\htdocs\yii_iin\framework\web\actions\CViewAction.php(124): CViewAction->resolveView('Profile')
+#1 C:\xampp\htdocs\yii_iin\framework\web\actions\CAction.php(75): CViewAction->run()
+#2 C:\xampp\htdocs\yii_iin\framework\web\CController.php(309): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii_iin\framework\web\CController.php(287): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii_iin\framework\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii_iin\framework\web\CWebApplication.php(276): CController->run('page')
+#6 C:\xampp\htdocs\yii_iin\framework\web\CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\yii_iin\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\yii_iin\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii_iin/index.php/site/page?view=Profile
+HTTP_REFERER=http://localhost/yii_iin/index.php/site/index
+---
+2014/01/24 06:38:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "thankyou.gif".' in C:\xampp\htdocs\yii_iin\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii_iin\framework\web\CController.php(271): CController->missingAction('thankyou.gif')
+#1 C:\xampp\htdocs\yii_iin\framework\web\CWebApplication.php(276): CController->run('thankyou.gif')
+#2 C:\xampp\htdocs\yii_iin\framework\web\CWebApplication.php(135): CWebApplication->runController('site/thankyou.g...')
+#3 C:\xampp\htdocs\yii_iin\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii_iin\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii_iin/index.php/site/thankyou.gif
+HTTP_REFERER=http://localhost/yii_iin/index.php/site/index
+---
+2014/01/24 06:59:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii_iin\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii_iin\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii_iin\framework\web\CWebApplication.php(276): CController->run('images')
+#2 C:\xampp\htdocs\yii_iin\framework\web\CWebApplication.php(135): CWebApplication->runController('site/images/iin...')
+#3 C:\xampp\htdocs\yii_iin\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii_iin\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii_iin/index.php/site/images/iin.jpg
+HTTP_REFERER=http://localhost/yii_iin/index.php/site/page?view=Biodata
+---
+2014/01/24 07:00:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii_iin\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii_iin\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii_iin\framework\web\CWebApplication.php(276): CController->run('images')
+#2 C:\xampp\htdocs\yii_iin\framework\web\CWebApplication.php(135): CWebApplication->runController('site/images/iin...')
+#3 C:\xampp\htdocs\yii_iin\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii_iin\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii_iin/index.php/site/images/iin.jpg
+HTTP_REFERER=http://localhost/yii_iin/index.php/site/page?view=about
+---
+2014/01/24 07:01:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii_iin\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii_iin\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii_iin\framework\web\CWebApplication.php(276): CController->run('images')
+#2 C:\xampp\htdocs\yii_iin\framework\web\CWebApplication.php(135): CWebApplication->runController('site/images/iin...')
+#3 C:\xampp\htdocs\yii_iin\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii_iin\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii_iin/index.php/site/images/iin.jpg
+HTTP_REFERER=http://localhost/yii_iin/index.php/site/page?view=biodata
+---
+2014/01/24 07:01:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii_iin\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii_iin\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii_iin\framework\web\CWebApplication.php(276): CController->run('images')
+#2 C:\xampp\htdocs\yii_iin\framework\web\CWebApplication.php(135): CWebApplication->runController('site/images/iin...')
+#3 C:\xampp\htdocs\yii_iin\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii_iin\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii_iin/index.php/site/images/iin.jpg
+HTTP_REFERER=http://localhost/yii_iin/index.php/site/page?view=Biodata
+---
+2014/01/25 02:10:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii_iin\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii_iin\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii_iin\framework\web\CWebApplication.php(276): CController->run('images')
+#2 C:\xampp\htdocs\yii_iin\framework\web\CWebApplication.php(135): CWebApplication->runController('site/images/iin...')
+#3 C:\xampp\htdocs\yii_iin\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii_iin\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii_iin/index.php/site/images/iin.jpg
+HTTP_REFERER=http://localhost/yii_iin/index.php/site/page?view=Biodata
+---
+2014/01/25 02:10:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii_iin\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii_iin\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii_iin\framework\web\CWebApplication.php(276): CController->run('images')
+#2 C:\xampp\htdocs\yii_iin\framework\web\CWebApplication.php(135): CWebApplication->runController('site/images/iin...')
+#3 C:\xampp\htdocs\yii_iin\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii_iin\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii_iin/index.php/site/images/iin.jpeg
+HTTP_REFERER=http://localhost/yii_iin/index.php/site/page?view=Biodata
+---
+2014/01/25 02:12:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii_iin\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii_iin\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii_iin\framework\web\CWebApplication.php(276): CController->run('images')
+#2 C:\xampp\htdocs\yii_iin\framework\web\CWebApplication.php(135): CWebApplication->runController('site/images/iin...')
+#3 C:\xampp\htdocs\yii_iin\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii_iin\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii_iin/index.php/site/images/iin.jpeg
+HTTP_REFERER=http://localhost/yii_iin/index.php/site/page?view=Biodata
+---
+2014/01/25 02:16:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii_iin\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii_iin\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii_iin\framework\web\CWebApplication.php(276): CController->run('images')
+#2 C:\xampp\htdocs\yii_iin\framework\web\CWebApplication.php(135): CWebApplication->runController('site/images/iin...')
+#3 C:\xampp\htdocs\yii_iin\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii_iin\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii_iin/index.php/site/images/iin.JPEG
+HTTP_REFERER=http://localhost/yii_iin/index.php/site/page?view=Biodata
+---
+2014/01/25 02:16:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii_iin\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii_iin\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii_iin\framework\web\CWebApplication.php(276): CController->run('images')
+#2 C:\xampp\htdocs\yii_iin\framework\web\CWebApplication.php(135): CWebApplication->runController('site/images/iin...')
+#3 C:\xampp\htdocs\yii_iin\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii_iin\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii_iin/index.php/site/images/iin.JPEG
+HTTP_REFERER=http://localhost/yii_iin/index.php/site/page?view=Biodata
+---
