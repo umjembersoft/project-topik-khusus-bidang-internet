@@ -8,9 +8,9 @@ Merupakan sekumpulan dokumentasi project program menggunakan yii framework yang 
 
 3. Nama folder adalah nama si pembuat kode (perogremernya), lisensi sepenuhnya menjadi hak milik si pembuat kode. Apabila ada beberapa kode yang memuat kode orang lain, mohon diberitahukan kepada kami lewat pull issue di repo ini (klik url -> https://github.com/umjembersoft/project-topik-khusus-bidang-internet/issues/new). 
 
-<br>
-<b>Semoga apa yang sudah ditulis oleh kawan-kawan dapat menjadi inspirasi bagi kita semua. Aamiin :)
-<br>
+
+Semoga apa yang sudah ditulis oleh kawan-kawan dapat menjadi inspirasi bagi kita semua. Aamiin :)
+
 Best Regards,
 <br>
 <br>
